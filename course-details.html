@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> La Petite Ecole - Détails du Cours</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/logo/la-petite-ecole-logo-edit.png">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Plyr CSS for video player -->
+    <link rel="stylesheet" href="assets/css/plyr.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/main.css">
+</head> 
+<body>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <a href="index.html" class="sidebar__logo text-center p-20">
+            <img src="assets/images/logo/fun_logo.png" alt="Logo">
+        </a>
+        <div class="sidebar-menu-wrapper overflow-y-auto">
+            <ul class="sidebar-menu">
+                <li><a href="index.html" class="sidebar-menu__link">Accueil</a></li>
+                <li><a href="student-courses.html" class="sidebar-menu__link">Liste des cours</a></li>
+                <li><a href="support-cours.html" class="sidebar-menu__link">Supports de cours</a></li>
+                <li><a href="setting.html" class="sidebar-menu__link">Paramètres</a></li>
+            </ul>
+        </div>
+    </aside>
+
+    <div class="dashboard-main-wrapper">
+        <div class="container mt-5">
+            <!-- Breadcrumb -->
+            <div class="breadcrumb mb-4">
+                <ul class="d-flex align-items-center">
+                    <li><a href="index.html" class="text-gray-200">Accueil</a></li>
+                    <li><span class="text-gray-500 mx-2">/</span></li>
+                    <li><span class="text-main-600">Détails du Cours</span></li>
+                </ul>
+            </div>
+
+            <!-- Course Details -->
+            <div id="courseDetails" class="card">
+                <div class="card-body">
+                    <!-- Titre et Catégorie -->
+                    <h2 id="courseTitle" class="mb-3">Titre du Cours</h2>
+                    <span id="courseCategory" class="badge bg-purple-50 text-purple-600 mb-4">Catégorie</span>
+                    
+
+                    <!-- Vidéo -->
+                    <div class="video-container mb-4">
+                        <video id="courseVideo" class="w-100 rounded" controls>
+                            <source src="" type="video/mp4">
+                            Votre navigateur ne supporte pas la vidéo.
+                        </video>
+                    </div>
+                    <p id="courseDescription" class="mt-4 text-gray-300"></p>
+
+                    <!-- Description du cours -->
+                    <!-- <h5 class="fw-bold">À propos de ce cours</h5>
+                    <p id="courseDescription" class="text-gray-300">
+                        La description du cours sera affichée ici.
+                    </p> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/boostrap.bundle.min.js"></script>
+    <script src="assets/js/plyr.js"></script>
+
+    <!-- Script pour charger les détails du cours -->
+    <script>
+        function getQueryParam(param) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(param);
+}
+
+// Fonction pour charger les détails du cours
+async function loadCourseDetails() {
+    const courseId = getQueryParam("id"); // Obtenir l'ID du cours depuis l'URL
+
+    if (courseId) {
+        try {
+            // Charger le fichier JSON contenant les cours
+            const response = await fetch("assets/data/courses1.json");
+            const courses = await response.json();
+
+            const course = courses.flatMap(cat => cat.courses).find(c => c.id === parseInt(courseId));
+
+            if (course) {
+                // Mettre à jour les détails du cours
+                document.getElementById("courseTitle").textContent = course.title;
+                document.getElementById("courseCategory").textContent = course.category;
+                document.getElementById("courseVideo").src = course.videoSrc;
+                document.getElementById("courseDescription").textContent = course.description;
+            } else {
+                // Si aucun cours n'est trouvé
+                document.getElementById("courseTitle").textContent = "Cours introuvable";
+                document.getElementById("courseCategory").textContent = "";
+                document.getElementById("courseDescription").textContent = "Le cours demandé n'a pas pu être trouvé.";
+            }
+        } catch (error) {
+            console.error("Erreur lors du chargement des cours :", error);
+            document.getElementById("courseTitle").textContent = "Erreur";
+            document.getElementById("courseCategory").textContent = "";
+            document.getElementById("courseDescription").textContent = "Une erreur est survenue lors du chargement des cours.";
+        }
+    } else {
+        // Si l'ID du cours n'est pas spécifié dans l'URL
+        document.getElementById("courseTitle").textContent = "Aucun cours sélectionné";
+        document.getElementById("courseCategory").textContent = "";
+        document.getElementById("courseDescription").textContent = "Veuillez sélectionner un cours depuis la liste.";
+    }
+}
+
+// Charger les détails du cours au chargement de la page
+document.addEventListener("DOMContentLoaded", loadCourseDetails);
+    </script>
+
+
+
+
+
+</body>
+</html>
