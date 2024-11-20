@@ -1,0 +1,194 @@
+/* General Layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f6f6;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.email-layout {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    height: 90vh;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.email-body {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    overflow-y: auto;
+    flex: 1;
+}
+/* Sidebar */
+.sidebar {
+    width: 20%;
+    background: #f0f4fa;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.sidebar h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.sidebar .menu {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar .menu li {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.sidebar .compose-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sidebar .count {
+    float: right;
+    background: #ddd;
+    padding: 2px 6px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+/* Email Content */
+.email-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Header */
+.email-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #f6f6f6;
+    border-bottom: 1px solid #ddd;
+}
+.email-header .back-btn {
+    padding : 10px ;
+    border-radius: 10px ;
+    border : none ;
+    background-color: #e9ecef;
+    cursor: pointer;
+}
+.email-header h1 {
+    font-size: 20px;
+}
+
+.email-header .tag {
+    background: #d1ecf1;
+    color: #0c5460;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+.email-header .options i {
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Email Body */
+.email-body {
+    padding: 20px;
+    overflow-y: auto;
+    flex: 1;
+}
+
+/* Messages */
+/* General Message Styles */
+/* General Message Styles */
+.message {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 60%;
+    position: relative;
+}
+
+/* Messages sent by "Vous" (Right Aligned) */
+.message.vous {
+    background: #eeeeee;
+    align-self: flex-end; /* Aligns the message to the right */
+    text-align: left; /* Ensures the text is right-aligned */
+    margin-left: auto; /* Adds spacing from the left */
+}
+
+/* Messages from "Participant" (Left Aligned) */
+.message.participant {
+    background: #2196f3;
+    align-self: flex-start; /* Aligns the message to the left */
+    text-align: left; /* Ensures the text is left-aligned */
+    margin-right: auto; /* Adds spacing from the right */
+    color : white
+}
+
+/* Optional: Add a Tail for Messages */
+.message.vous::after {
+    content: "";
+    position: absolute;
+    right: -10px; /* Places the tail on the right */
+    top: 10px;
+    border: 10px solid transparent;
+}
+
+.message.participant::after {
+    content: "";
+    position: absolute;
+    left: -10px; /* Places the tail on the left */
+    top: 10px;
+    border: 10px solid transparent;
+}
+
+
+/* Reply Box */
+.reply-box {
+    display: flex;
+    padding: 15px;
+    border-top: 1px solid #ddd;
+    background: #f6f6f6;
+}
+
+.reply-box input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.reply-box .submit-btn {
+    padding: 10px 15px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

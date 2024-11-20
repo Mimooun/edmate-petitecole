@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversation</title>
+    <link rel="stylesheet" href="assets/css/conversations.css">
+</head>
+
+<body>
+    <div class="email-layout">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h2>Home</h2>
+            <ul class="menu">
+                <li><button class="compose-btn">Rédiger</button></li>
+                <li>Principale <span class="count">370</span></li>
+                <li>Favoris</li>
+                <li>Envoyés</li>
+                <li>Brouillons <span class="count">3</span></li>
+                <li>Spam</li>
+                <li>Corbeille</li>
+            </ul>
+        </div>
+
+        <!-- Main Content -->
+        <div class="email-content">
+            <!-- Email Header -->
+            <div class="email-header">
+                <a href="email.html"><button  class="back-btn"> Back</button></a>
+                <h1 id="conversation-title">Loading...</h1>
+                <div class="options">
+                    <i class="star-icon">&#9733;</i>
+                    <i class="menu-icon">&#8942;</i>
+                </div>
+            </div>
+
+            <!-- Email Body -->
+            <div class="email-body">
+                <div id="conversation-messages"></div>
+            </div>
+
+            <!-- Reply Box -->
+            <div class="reply-box">
+                <input type="text" placeholder="Tapez votre message ..." />
+                <button class="submit-btn">Envoyer &#10148;</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Get the conversation ID from the URL
+        const params = new URLSearchParams(window.location.search);
+        const conversationId = params.get('id');
+
+        // Fetch the JSON file
+        fetch('assets/data/modifiedStagaireLinks.json')
+            .then(response => response.json())
+            .then(data => {
+                // Find the conversation by ID
+                const conversation = data.find(person => person.link.includes(conversationId));
+
+                if (conversation) {
+                    // Update the title
+                    document.getElementById('conversation-title').textContent = `${conversation.PRENOM} ${conversation.NOM}`;
+
+                    // Generate messages dynamically
+                    const messages = [
+                    { sender: 'Vous', message: `Bonjour ${conversation.PRENOM},` , type: 'vous'},
+                    { sender: `${conversation.PRENOM}`, message: 'Bonjour !', type : 'participant' },
+
+                        {
+                            sender: 'Vous', message: `Nous sommes ravis de vous accueillir et de vous accompagner dans votre parcours de formation.<br>
+
+Pour faciliter votre expérience, tous les documents essentiels sont disponibles sur notre drive auquel vous avez un accès personnel.<br><br>
+
+Vous y trouverez :<br><br>
+- La convocation et le règlement intérieur<br>
+- Les exercices et cas pratiques<br>
+- Le support de cours<br>
+- Tous les éléments administratifs nécessaires<br>
+- Un tutoriel pour vous guider dans l’utilisation de la plateforme<br>
+- Vous trouverez ci-dessous le lien vers le drive, qui vous donnera un accès direct à ces ressources.<br><br>
+
+ <a href="${conversation.link}">Lien drive ici</a><br><br>
+
+Pour toute assistance pédagogique ou technique, n’hésitez pas à contacter Sana Skendraoui.<br> Nous sommes là pour vous aider et assurer une formation réussie et enrichissante.<br>
+Numéro de téléphone : +33 6 58 52 55 34<br>
+Adresse e-mail : lapetiteecole.contacts@gmail.com<br><br>
+Bonne formation !`, type: 'vous'},
+                        { sender: `${conversation.PRENOM}`, message: 'Merci beaucoup !', type :'participant' }
+                    ];
+
+                    const messagesContainer = document.getElementById('conversation-messages');
+                    messages.forEach(msg => {
+                        const messageEl = document.createElement('div');
+                        messageEl.className = `message ${msg.type}`;
+                        messageEl.innerHTML = `<strong>${msg.sender}:</strong> ${msg.message}`;
+                        messagesContainer.appendChild(messageEl);
+                    });
+                } else {
+                    document.getElementById('conversation-title').textContent = 'Conversation Not Found';
+                }
+            })
+            .catch(error => console.error('Error fetching conversation:', error));
+    </script>
+</body>
+
+</html>

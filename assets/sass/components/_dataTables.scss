@@ -8,16 +8,16 @@ table.dataTable {
 }
 
 .table-striped>tbody>tr:nth-of-type(odd)>* {
-    --bs-table-color-type: transparent !important;
-    --bs-table-bg-type: transparent !important;
+    --bs-table-color-type: rgb(248, 57, 57) !important;
+    --bs-table-bg-type: grey !important;
 }
 
 .dataTable>thead>tr>th, table.dataTable>thead>tr>td {
-    border-bottom: 1px solid var(--gray-100) !important;
+    border-bottom: 1px solid var(--gray-400) !important;
 }
 
 .dt-container.dt-empty-footer tbody>tr:last-child>* {
-    border-bottom: 1px solid var(--gray-100) !important;
+    border-bottom: 1px solid var(--gray-400) !important;
 }
 
 table.dataTable th.dt-type-numeric, table.dataTable th.dt-type-date, table.dataTable td.dt-type-numeric, table.dataTable td.dt-type-date {

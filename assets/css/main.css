@@ -730,13 +730,13 @@ tr {
 }
 
 table.dataTable {
-    min-width: 1199px;
+    min-width: 1399px;
 }
 
-.table-striped > tbody > tr:nth-of-type(odd) > * {
+/* .table-striped > tbody > tr:nth-of-type(odd) > * {
     --bs-table-color-type: transparent !important;
     --bs-table-bg-type: transparent !important;
-}
+} */
 
 .dataTable > thead > tr > th, table.dataTable > thead > tr > td {
     border-bottom: 1px solid var(--gray-100) !important;
@@ -751,11 +751,11 @@ table.dataTable th.dt-type-numeric, table.dataTable th.dt-type-date, table.dataT
 }
 
 .dataTable > tbody > tr td:first-child, .dataTable > thead > tr th:first-child {
-    padding-inline-start: 20px;
+    padding-inline-start: 40px;
 }
 
 .dataTable > tbody > tr td:last-child, .dataTable > thead > tr th:last-child {
-    padding-inline-end: 20px;
+    padding-inline-end: 40px;
 }
 
 table.dataTable thead > tr > th.dt-orderable-asc:hover, table.dataTable thead > tr > th.dt-orderable-desc:hover, table.dataTable thead > tr > td.dt-orderable-asc:hover, table.dataTable thead > tr > td.dt-orderable-desc:hover {
