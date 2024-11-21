@@ -4,8 +4,8 @@ function login() {
     const message = document.getElementById("message");
   
     // Hardcoded credentials for example purposes
-    const correctUsername = "Sanaa";
-    const correctPassword = "fan2024";
+    const correctUsername = "petiteecole";
+    const correctPassword = "petite2024";
   
     if (username === correctUsername && password === correctPassword) {
       message.textContent = "Connexion réussie!";

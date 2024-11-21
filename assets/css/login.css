@@ -5,7 +5,7 @@ body, .background {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: linear-gradient(135deg, #4c75e2, #6fa0ff);
+    background: linear-gradient(135deg, #7b2cbf, #6fa0ff);
     font-family: Arial, sans-serif;
     color: #333;
   }
@@ -24,7 +24,7 @@ body, .background {
   .header h2 {
     font-size: 1.5em;
     margin-bottom: 0.3em;
-    color: #4c75e2;
+    color: #7b2cbf;
   }
   
   .header p {
@@ -63,7 +63,7 @@ body, .background {
     width: 100%;
     padding: 12px;
     margin-top: 10px;
-    background-color: #4c75e2;
+    background-color: #7b2cbf;
     border: none;
     border-radius: 5px;
     color: white;
@@ -73,7 +73,7 @@ body, .background {
   }
   
   button:hover {
-    background-color: #3a5eb7;
+    background-color: #c77dff;
   }
   
   /* Signup link styling */

@@ -68,8 +68,8 @@
 
                     // Generate messages dynamically
                     const messages = [
-                    { sender: 'Vous', message: `Bonjour ${conversation.PRENOM},` , type: 'vous'},
-                    { sender: `${conversation.PRENOM}`, message: 'Bonjour !', type : 'participant' },
+                    // { sender: 'Vous', message: `Bonjour ${conversation.PRENOM},` , type: 'vous'},
+                    // { sender: `${conversation.PRENOM}`, message: 'Bonjour !', type : 'participant' },
 
                         {
                             sender: 'Vous', message: `Nous sommes ravis de vous accueillir et de vous accompagner dans votre parcours de formation.<br>
@@ -90,7 +90,11 @@ Pour toute assistance pédagogique ou technique, n’hésitez pas à contacter S
 Numéro de téléphone : +33 6 58 52 55 34<br>
 Adresse e-mail : lapetiteecole.contacts@gmail.com<br><br>
 Bonne formation !`, type: 'vous'},
-                        { sender: `${conversation.PRENOM}`, message: 'Merci beaucoup !', type :'participant' }
+                        { sender: `${conversation.PRENOM}`, message: 'Merci beaucoup !', type :'participant' },
+                        { sender: `Vous`, message: 'Vous avez des questions  ?', type :'vous' },
+                        { sender: `${conversation.PRENOM}`, message: 'Pas pour lz moment merci bcp !', type :'participant' },
+
+                        
                     ];
 
                     const messagesContainer = document.getElementById('conversation-messages');
