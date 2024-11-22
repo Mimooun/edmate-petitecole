@@ -51,7 +51,7 @@
     --main-two-l: 48%;
     --main-two: var(--main-two-h) var(--main-two-s) var(--main-two-l);
   /* White Color */
-    --white: 0 0% 100%;
+    --white: White;
     --black: 220 33% 9%;
     --light: 180 45% 94%;
     --heading-color: var(--black);
@@ -142,14 +142,14 @@
     --light-700: #374151;
     --light-800: #1F2937;
     --primary-50: #E4F1FF;
-    --primary-100: #BFDCFF;
-    --primary-200: #95C7FF;
-    --primary-300: #6BB1FF;
-    --primary-400: #519FFF;
-    --primary-500: #458EFF;
-    --primary-600: #487FFF;
-    --primary-700: #486CEA;
-    --primary-800: #4759D6;
+    --primary-100: #dc97ff;
+    --primary-200: #d283ff;
+    --primary-300: #ab51e3;
+    --primary-400: #9d4edd;
+    --primary-500: #724cf9;
+    --primary-600: #613dc1;
+    --primary-700: #4e148c;
+    --primary-800: #421869;
     --primary-900: #4536B6;
     --danger-50: #FEF2F2;
     --danger-100: #FEE2E2;
@@ -248,7 +248,7 @@
     border: 1px solid transparent;
     font-weight: 500;
     font-family: var(--body-font);
-    color: hsl(var(--white)) !important;
+    color: var(--white) !important;
     z-index: 1;
     line-height: 1;
     padding: 14px 20px;
@@ -265,25 +265,25 @@
 }
 
 .btn-main {
-    background-color: hsl(var(--main)) !important;
-    border-color: hsl(var(--main)) !important;
+    background-color: var(--primary-300) !important;
+    border-color: var(--primary-300) !important;
 }
 
 .btn-main:hover {
-    background-color: var(--main-800) !important;
-    border-color: var(--main-800) !important;
+    background-color: var(--primary-200) !important;
+    border-color: var(--primary-200) !important;
 }
 
 .btn-outline-main {
     background-color: transparent !important;
-    border-color: hsl(var(--main)) !important;
-    color: hsl(var(--main)) !important;
+    border-color: var(--primary-300) !important;
+    color: var(--primary-300) !important;
 }
 
 .btn-outline-main:hover {
-    background-color: hsl(var(--main)) !important;
-    border-color: hsl(var(--main)) !important;
-    color: hsl(var(--white)) !important;
+    background-color: var(--primary-200) !important;
+    border-color: var(--primary-400)!important;
+    color: var(--white) !important;
 }
 
 .btn-gray {
@@ -627,20 +627,21 @@ input[type=number] {
 .common-tab .nav-item .nav-link {
     color: var(--gray-600);
     padding: 4px 12px;
-    border: 1px solid var(--gray-200);
+    border: none;
     border-radius: 50px;
     font-size: 0.9375rem;
 }
 
 .common-tab .nav-item .nav-link.active {
-    color: var(--main-600);
-    background-color: var(--main-50);
-    border-color: var(--main-50);
+    color: rgb(0, 0, 0);
+    background-color: #f1e3fc;
+    border-color: none; 
 }
 
 .common-tab .nav-item .nav-link:hover {
-    color: var(--main-600);
-    border-color: var(--main-200);
+    color: white;
+    background : #a062dd ;
+    border-color: none;
 }
 
 .common-tab.style-two {
@@ -4796,7 +4797,7 @@ button:focus {
 }
 
 .text-main-600 {
-    color: var(--main-600) !important;
+    color: var(--primary-300) !important;
 }
 
 .text-main-700 {
@@ -8844,7 +8845,7 @@ button:focus {
     position: fixed;
     inset-inline-start: 0;
     inset-block-start: 0;
-    background-color: hsl(var(--white));
+    background-color: hsl(var(--primary-300));
     border-right: 1px solid var(--gray-100);
     height: 100%;
 }
@@ -8886,32 +8887,32 @@ button:focus {
 }
 
 .sidebar-menu__item.activePage .sidebar-menu__link {
-    background-color: hsl(var(--main));
-    color: hsl(var(--white));
+    background-color: var(--primary-400);
+    color: var(--white);
 }
 
 .sidebar-menu__item.activePage .sidebar-menu__link::before {
-    color: hsl(var(--white)) !important;
+    color: var(--white) !important;
     transform: translateY(-50%) rotate(90deg) !important;
 }
 
 .sidebar-menu__item.activePage .sidebar-menu__link .link-badge {
-    background-color: hsl(var(--white));
-    color: var(--main-600);
+    background-color: var(--primary-300);
+    color: var(--white);
 }
 
 .sidebar-menu__item:has(.sidebar-submenu__item.activePage) .sidebar-menu__link {
-    background-color: var(--main-600);
-    color: hsl(var(--white));
+    background-color: var(--primary-300);
+    color: var(--white);
 }
 
 .sidebar-menu__item:has(.sidebar-submenu__item.activePage) .sidebar-menu__link::before {
-    color: hsl(var(--white)) !important;
+    color: var(--white) !important;
 }
 
 .sidebar-menu__item:has(.sidebar-submenu__item.activePage) .sidebar-menu__link .link-badge {
-    background-color: hsl(var(--white));
-    color: var(--main-600);
+    background-color: var(--primary-400);
+    color: var(--white);
 }
 
 .sidebar-menu__item.has-dropdown .sidebar-menu__link {
@@ -8946,8 +8947,8 @@ button:focus {
 }
 
 .sidebar-menu__link:hover {
-    color: hsl(var(--main));
-    background-color: var(--main-50);
+    color: white;
+    background-color: var(--primary-100);
 }
 
 .sidebar-menu__link .icon {
@@ -8959,7 +8960,7 @@ button:focus {
 .sidebar-menu__link .link-badge {
     width: 22px;
     height: 22px;
-    background-color: var(--main-100);
+    background-color: var(--primary-400);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8982,7 +8983,7 @@ button:focus {
 }
 
 .sidebar-submenu__item.activePage .sidebar-submenu__link {
-    color: var(--main-600);
+    color: var(--primary-400);
     font-weight: 600;
 }
 
@@ -9006,7 +9007,7 @@ button:focus {
     transform: translateY(-50%);
     width: 10px;
     height: 2px;
-    background-color: var(--gray-100);
+    background-color: var(--primary-400);
     border-radius: 30px;
 }
 
@@ -9018,7 +9019,7 @@ button:focus {
 /* ============================= Sidebar Css End ============================ */
 /* =========================== Top Navbar Css Start =============================== */
 .top-navbar {
-    background-color: hsl(var(--white));
+    background-color: var(--white);
     padding-block-start: 16px;
     padding-block-end: 16px;
     position: sticky;
@@ -9246,7 +9247,7 @@ button:focus {
 }
 
 .step-list__item {
-    background-color: hsl(var(--white));
+    background-color: var(--white);
     clip-path: polygon(0 0, 94% 0, 100% 50%, 94% 100%, 0 100%, 6% 47%);
   /* Done Style */
   /* active Style */
