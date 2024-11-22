@@ -665,6 +665,7 @@ input[type=number] {
 .card {
     border: 0;
     border-radius: 16px;
+    background: #f6edff;
 }
 
 .card .card-header, .card .card-footer {
@@ -691,6 +692,7 @@ input[type=number] {
 /* =========================== Dropdown Css Start ======================== */
 .dropdown-menu--lg {
     width: 330px;
+    background : white ;
 }
 
 @media screen and (max-width: 575px) {
@@ -1234,7 +1236,7 @@ td.fc-header-center {
 }
 
 .plan-item.active .border-gray-100 {
-    border-color: var(--main-300) !important;
+    border-color: 3px solid purple !important;
 }
 
 .plan-item.active:hover {
@@ -5802,7 +5804,7 @@ button:focus {
 }
 
 .border-gray-200 {
-    border-color: var(--gray-200) !important;
+    border-color: 2px solid white !important;
 }
 
 .border-gray-300 {
@@ -7986,7 +7988,7 @@ button:focus {
 }
 
 .bg-white {
-    background-color: hsl(var(--white)) !important;
+    background-color: var(--white) !important;
 }
 
 /* Font Size Class Start */
@@ -9019,7 +9021,7 @@ button:focus {
 /* ============================= Sidebar Css End ============================ */
 /* =========================== Top Navbar Css Start =============================== */
 .top-navbar {
-    background-color: var(--white);
+    background-color: #b892ff;
     padding-block-start: 16px;
     padding-block-end: 16px;
     position: sticky;
@@ -9165,7 +9167,7 @@ button:focus {
     flex-wrap: wrap;
     flex-flow: column;
     transition: 0.2s linear;
-    background-color: var(--main-50);
+    background-color: #e3beff;
 }
 
 @media screen and (max-width: 1199px) {
@@ -9539,6 +9541,7 @@ button:focus {
 
 .course-item-dropdown.active {
     display: block;
+
 }
 
 /* Player Css Start */
