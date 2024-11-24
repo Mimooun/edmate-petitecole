@@ -6,118 +6,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conversation</title>
-
-    <!-- Import styles from view-details.html -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/editor-quill.css">
-    <link rel="stylesheet" href="assets/css/file-upload.css">
-    <link rel="stylesheet" href="assets/css/jquery-ui.css">
-    <link rel="stylesheet" href="assets/css/jquery-jvectormap-2.0.5.css">
-    <link rel="stylesheet" href="assets/css/plyr.css">
-
-
-
+    <link rel="stylesheet" href="assets/css/conversations.css">
 </head>
 
 <body>
-    <div class="dashboard-main-wrapper">
-        <!-- Sidebar (same as view-details.html) -->
-        <aside class="sidebar">
-            <a href="index.html" class="sidebar__logo text-center p-20">
-                <img src="assets/images/logo/fun_logo.png" alt="Logo">
-            </a>
-            <div class="sidebar-menu-wrapper">
-                <ul class="sidebar-menu">
-                    <li><a href="index.html" class="sidebar-menu__link">Accueil</a></li>
-                    <li><a href="student-courses.html" class="sidebar-menu__link">Cours</a></li>
-                    <li><a href="support-cours.html" class="sidebar-menu__link">Supports de cours</a></li>
-                    <li><a href="students.html" class="sidebar-menu__link">Apprenants</a></li>
-                    <li><a href="email.html" class="sidebar-menu__link">Boîte de réception</a></li>
-                </ul>
-            </div>
-        </aside>
-
-        <!-- Main Dashboard Content -->
-        <div class="dashboard-body">
-            <!-- Breadcrumb (same as view-details.html) -->
-            <div class="breadcrumb mb-24">
-                <ul class="flex-align gap-4">
-                    <li><a href="index.html" class="text-gray-200 fw-normal text-15 hover-text-main-600">Home</a></li>
-                    <li><i class="ph ph-caret-right"></i></li>
-                    <li><span class="text-main-600 fw-normal text-15">Conversation</span></li>
-                </ul>
-            </div>
-
-            <!-- Email Section -->
-            <div class="row gy-4">
-                <!-- Sidebar for Emails -->
-                <div class="col-xl-3">
-                    <div class="card h-100 p-0">
-                        <div class="card-body p-24">
-                            <button class="btn btn-main text-sm w-100 mb-16">Compose</button>
-                            <ul>
-                                <li class="mb-8 email-links">
-                                    <a href="email.html" class="hover-bg-main-50 px-20 py-8 rounded-pill text-gray-300 hover-text-gray-600">Inbox</a>
-                                </li>
-                                <li class="mb-8 email-links">
-                                    <a href="starred.html" class="hover-bg-main-50 px-20 py-8 rounded-pill text-gray-300 hover-text-gray-600">Starred</a>
-                                </li>
-                                <li class="mb-8 email-links">
-                                    <a href="#" class="hover-bg-main-50 px-20 py-8 rounded-pill text-gray-300 hover-text-gray-600">Sent</a>
-                                </li>
-                                <li class="mb-8 email-links">
-                                    <a href="#" class="hover-bg-main-50 px-20 py-8 rounded-pill text-gray-300 hover-text-gray-600">Draft</a>
-                                </li>
-                                <li class="mb-8 email-links">
-                                    <a href="#" class="hover-bg-main-50 px-20 py-8 rounded-pill text-gray-300 hover-text-gray-600">Spam</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="hover-bg-main-50 px-20 py-8 rounded-pill text-gray-300 hover-text-gray-600">Bin</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Conversation Section -->
-                <div class="col-xl-9">
-                    <div class="card">
-                        <div class="card-header py-16 flex-between">
-                            <div class="d-flex align-items-center gap-8">
-                                <a href="email.html" class="text-gray-600 hover-text-main-600 d-flex me-8 text-2xl">
-                                    <i class="ph ph-arrow-left"></i>
-                                </a>
-                                <h6 id="conversation-title" class="mb-0 text-lg">Loading...</h6>
-                            </div>
-                        </div>
-                        <div class="card-body p-0" id="conversation-messages">
-                            <!-- Messages will be dynamically inserted here -->
-                        </div>
-                        <div class="card-footer border-top">
-                            <form class="flex-align gap-8">
-                                <label for="fileUp" class="file-btn w-48 h-48 flex-center bg-main-50 text-24 text-main-600 rounded-circle hover-bg-main-100">
-                                    <i class="ph ph-plus"></i>
-                                </label>
-                                <input type="file" id="fileUp" hidden>
-                                <input type="text" class="form-control h-48" placeholder="Type your message...">
-                                <button type="submit" class="btn btn-main">Envoyer</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="email-layout">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h2>Home</h2>
+            <ul class="menu">
+                <li><button class="compose-btn">Rédiger</button></li>
+                <li>Principale <span class="count">370</span></li>
+                <li>Favoris</li>
+                <li>Envoyés</li>
+                <li>Brouillons <span class="count">3</span></li>
+                <li>Spam</li>
+                <li>Corbeille</li>
+            </ul>
         </div>
 
-        <!-- Footer (same as view-details.html) -->
-        <div class="dashboard-footer">
-            <div class="flex-between">
-                <p class="text-gray-300 text-13 fw-normal"> &copy; Copyright Fan 2024, All Rights Reserved</p>
+        <!-- Main Content -->
+        <div class="email-content">
+            <!-- Email Header -->
+            <div class="email-header">
+                <a href="email.html"><button  class="back-btn"> Back</button></a>
+                <h1 id="conversation-title">Loading...</h1>
+                <div class="options">
+                    <i class="star-icon">&#9733;</i>
+                    <i class="menu-icon">&#8942;</i>
+                </div>
+            </div>
+
+            <!-- Email Body -->
+            <div class="email-body">
+                <div id="conversation-messages"></div>
+            </div>
+
+            <!-- Reply Box -->
+            <div class="reply-box">
+                <input type="text" placeholder="Tapez votre message ..." />
+                <button class="submit-btn">Envoyer &#10148;</button>
             </div>
         </div>
     </div>
 
-    <!-- JavaScript -->
     <script>
         // Get the conversation ID from the URL
         const params = new URLSearchParams(window.location.search);
@@ -127,35 +59,49 @@
         fetch('assets/data/modifiedStagaireLinks.json')
             .then(response => response.json())
             .then(data => {
+                // Find the conversation by ID
                 const conversation = data.find(person => person.link.includes(conversationId));
+
                 if (conversation) {
-                    // Set the conversation title
+                    // Update the title
                     document.getElementById('conversation-title').textContent = `${conversation.PRENOM} ${conversation.NOM}`;
 
-                    // Define dynamic messages
+                    // Generate messages dynamically
                     const messages = [
+                    // { sender: 'Vous', message: `Bonjour ${conversation.PRENOM},` , type: 'vous'},
+                    // { sender: `${conversation.PRENOM}`, message: 'Bonjour !', type : 'participant' },
+
                         {
-                            sender: 'Vous',
-                            message: `<a href="${conversation.link}">Lien drive ici</a>`,
-                            type: 'vous',
-                            timestamp: '2024-11-22T09:00:00'
-                        },
-                        {
-                            sender: `${conversation.PRENOM}`,
-                            message: 'Merci beaucoup !',
-                            type: 'participant',
-                            timestamp: '2024-11-22T09:05:00'
-                        }
+                            sender: 'Vous', message: `Nous sommes ravis de vous accueillir et de vous accompagner dans votre parcours de formation.<br>
+
+Pour faciliter votre expérience, tous les documents essentiels sont disponibles sur notre drive auquel vous avez un accès personnel.<br><br>
+
+Vous y trouverez :<br><br>
+- La convocation et le règlement intérieur<br>
+- Les exercices et cas pratiques<br>
+- Le support de cours<br>
+- Tous les éléments administratifs nécessaires<br>
+- Un tutoriel pour vous guider dans l’utilisation de la plateforme<br>
+- Vous trouverez ci-dessous le lien vers le drive, qui vous donnera un accès direct à ces ressources.<br><br>
+
+ <a href="${conversation.link}">Lien drive ici</a><br><br>
+
+Pour toute assistance pédagogique ou technique, n’hésitez pas à contacter Sana Skendraoui.<br> Nous sommes là pour vous aider et assurer une formation réussie et enrichissante.<br>
+Numéro de téléphone : +33 6 58 52 55 34<br>
+Adresse e-mail : lapetiteecole.contacts@gmail.com<br><br>
+Bonne formation !`, type: 'vous'},
+                        { sender: `${conversation.PRENOM}`, message: 'Merci beaucoup !', type :'participant' },
+                        { sender: `Vous`, message: 'Vous avez des questions  ?', type :'vous' },
+                        { sender: `${conversation.PRENOM}`, message: 'Pas pour lz moment merci bcp !', type :'participant' },
+
+                        
                     ];
 
                     const messagesContainer = document.getElementById('conversation-messages');
                     messages.forEach(msg => {
                         const messageEl = document.createElement('div');
-                        messageEl.innerHTML = `
-                            <div class="p-3 border-bottom">
-                                <strong>${msg.sender}:</strong> ${msg.message}
-                                <div class="text-muted">${new Date(msg.timestamp).toLocaleTimeString()}</div>
-                            </div>`;
+                        messageEl.className = `message ${msg.type}`;
+                        messageEl.innerHTML = `<strong>${msg.sender}:</strong> ${msg.message}`;
                         messagesContainer.appendChild(messageEl);
                     });
                 } else {
