@@ -65,7 +65,7 @@
                     <li class="sidebar-menu__item">
                         <a href="index.html" class="sidebar-menu__link">
                             <span class="icon"><i class="ph ph-squares-four"></i></span>
-                            <span class="text">Acceuil</span>
+                            <span class="text">Accueil</span>
                             <!-- <span class="link-badge">3</span> -->
                         </a>
                         <!-- Submenu start -->
@@ -1173,7 +1173,7 @@
         async function loadCourseDetails() {
             try {
                 // Fetch the courses data
-                const response = await fetch("assets/data/courses1.json");
+                const response = await fetch("assets/data/courses1_updated.json");
                 if (!response.ok) {
                     throw new Error(`HTTP error! Status: ${response.status}`);
                 }
@@ -1208,15 +1208,23 @@
                         courseCard.classList.add('col-xxl-4', 'col-lg-4', 'col-sm-6');
 
                         courseCard.innerHTML = `
-                            <div class="card border border-gray-100">
+                            <div class="card border border-gray-100">                               
                                 <div class="card-body p-8">
                                     <a href="course-details.html?id=${course.id}" 
-                                        class="bg-main-100 rounded-8 overflow-hidden text-center mb-8 h-164 flex-center p-8">
-                                        <video class="w-100 h-100 object-fit-cover rounded-8" controls>
-                                            <source src="${course.videoSrc}" type="video/mp4">
-                                            Votre navigateur ne supporte pas la lecture de vidéo.
-                                        </video>
-                                    </a>
+         class="position-relative d-block rounded-8 overflow-hidden text-center mb-8 h-164 flex-center p-8">
+        <!-- Image -->
+        <img src="${course.imagePath}" 
+             alt="Course Cover" 
+             class="position-absolute top-0 start-0 w-100 h-100 rounded-8" 
+             style="object-fit: cover; z-index: 2;">
+
+        <!-- Video -->
+        <video class="position-absolute top-0 start-0 w-100 h-100 rounded-8" 
+               controls 
+               style="z-index: 1; object-fit: cover;">
+          <source src="${course.videoSrc}" type="video/mp4">
+        </video>
+      </a>
                                     <div class="p-8">
                                         <span class="text-13 py-2 px-10 rounded-pill bg-purple-50 text-purple-600 mb-16">${course.category}</span>
                                         <h5 class="mb-0">

@@ -1,12 +1,5 @@
 [
     {
-        "NOM": "LEMAITRE",
-        "PRENOM": "GUY",
-        "MESSAGE": "Bienvenue dans votre formation. Nous espérons que vous réussirez avec brio !",
-        "DATE_DEBUT_SESSION": "05/01/2023",
-        "link": "conversation.html?id=LEMAITRE_GUY"
-    },
-    {
         "NOM": "HAEGELIN",
         "PRENOM": "FIONA",
         "MESSAGE": "Bienvenue dans votre formation. Nous espérons que vous réussirez avec brio !",
@@ -41,13 +34,7 @@
         "DATE_DEBUT_SESSION": "17/01/2023",
         "link": "conversation.html?id=MATTEI_THOMAS"
     },
-    {
-        "NOM": "PAPUCHON",
-        "PRENOM": "SALOME",
-        "MESSAGE": "Bienvenue dans votre formation. Nous espérons que vous réussirez avec brio !",
-        "DATE_DEBUT_SESSION": "17/01/2023",
-        "link": "conversation.html?id=PAPUCHON_SALOME"
-    },
+ 
     {
         "NOM": "BADIROU",
         "PRENOM": "BOLARINWA",
@@ -181,13 +168,7 @@
         "DATE_DEBUT_SESSION": "19/04/2023",
         "link": "conversation.html?id=JEBBADI_SARAH"
     },
-    {
-        "NOM": "El Ouahta",
-        "PRENOM": "NAOUAL",
-        "MESSAGE": "Bienvenue dans votre formation. Nous espérons que vous réussirez avec brio !",
-        "DATE_DEBUT_SESSION": "11/04/2023",
-        "link": "conversation.html?id=El_Ouahta_NAOUAL"
-    },
+
     {
         "NOM": "GALLIX",
         "PRENOM": "PATRICIA",
@@ -363,13 +344,7 @@
         "DATE_DEBUT_SESSION": "05/01/2023",
         "link": "conversation.html?id=YACOUBI_BAIREM"
     },
-    {
-        "NOM": "KNAEBEL",
-        "PRENOM": "SANDRA",
-        "MESSAGE": "Bienvenue dans votre formation. Nous espérons que vous réussirez avec brio !",
-        "DATE_DEBUT_SESSION": "09/01/2023",
-        "link": "conversation.html?id=KNAEBEL_SANDRA"
-    },
+
     {
         "NOM": "SANTOS",
         "PRENOM": "CHRISTOPHER",
@@ -993,13 +968,7 @@
         "DATE_DEBUT_SESSION": "12/01/2023",
         "link": "conversation.html?id=MENSOURI_HASSANE"
     },
-    {
-        "NOM": "MESSAADI",
-        "PRENOM": "REDHA",
-        "MESSAGE": "Bienvenue dans votre formation. Nous espérons que vous réussirez avec brio !",
-        "DATE_DEBUT_SESSION": "30/01/2023",
-        "link": "conversation.html?id=MESSAADI_REDHA"
-    },
+
     {
         "NOM": "LEHBIL",
         "PRENOM": "SALAH-DINE",
@@ -1021,13 +990,7 @@
         "DATE_DEBUT_SESSION": "20/01/2023",
         "link": "conversation.html?id=DHANE_NADIA"
     },
-    {
-        "NOM": "GABAYET",
-        "PRENOM": "BENJAMIN",
-        "MESSAGE": "Bienvenue dans votre formation. Nous espérons que vous réussirez avec brio !",
-        "DATE_DEBUT_SESSION": "20/01/2023",
-        "link": "conversation.html?id=GABAYET_BENJAMIN"
-    },
+   
     {
         "NOM": "GUIOT",
         "PRENOM": "FRANCOIS",
@@ -1105,13 +1068,7 @@
         "DATE_DEBUT_SESSION": "13/04/2023",
         "link": "conversation.html?id=CHAMI_LINA"
     },
-    {
-        "NOM": "LASO",
-        "PRENOM": "VIRGINIE",
-        "MESSAGE": "Bienvenue dans votre formation. Nous espérons que vous réussirez avec brio !",
-        "DATE_DEBUT_SESSION": "10/04/2023",
-        "link": "conversation.html?id=LASO_VIRGINIE"
-    },
+
     {
         "NOM": "SANCHEZ",
         "PRENOM": "VIRGINIE",
@@ -1574,13 +1531,7 @@
         "DATE_DEBUT_SESSION": "19/04/2024",
         "link": "conversation.html?id=DAHMANE_AMIR"
     },
-    {
-        "NOM": "CHEKLAT",
-        "PRENOM": "LOAN",
-        "MESSAGE": "Bienvenue dans votre formation. Nous espérons que vous réussirez avec brio !",
-        "DATE_DEBUT_SESSION": "19/04/2024",
-        "link": "conversation.html?id=CHEKLAT_LOAN"
-    },
+ 
     {
         "NOM": "NOVAIS DIAS",
         "PRENOM": "RAFAEL",
@@ -2043,13 +1994,7 @@
         "DATE_DEBUT_SESSION": "18/04/2024",
         "link": "conversation.html?id=NOVAIS_DIAS_RAFAEL"
     },
-    {
-        "NOM": "MAHI",
-        "PRENOM": "ABDELAHAI",
-        "MESSAGE": "Bienvenue dans votre formation. Nous espérons que vous réussirez avec brio !",
-        "DATE_DEBUT_SESSION": "18/04/2024",
-        "link": "conversation.html?id=MAHI_ABDELAHAI"
-    },
+
     {
         "NOM": "Limouzy",
         "PRENOM": "Pauline",

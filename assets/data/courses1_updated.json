@@ -1,0 +1,747 @@
+[
+    {
+        "id": "aLangue Française",
+        "name": "Langue Française (Excellence)",
+        "description": "Remise à niveau d'orthographe en langue française (Excellence)",
+        "courses": [
+            {
+                "id": 1,
+                "title": "Chapitre 1 : Introduction",
+                "category": "Langue Française (Excellence)",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731765636/ms2twacweqfepwblekvb.mp4",
+                "description": "Dans ce chapitre introductif, nous revisitons les bases de l'orthographe française. Vous découvrirez l'importance des lettres muettes, la distinction entre consonnes doubles et simples, ainsi que les règles d'emploi des voyelles et consonnes. Nous aborderons également l'origine historique de certaines règles orthographiques pour mieux comprendre leur application actuelle. Ce chapitre pose les fondations nécessaires pour aborder les sujets plus complexes à venir.",
+                "imagePath": "./assets/images/bg/cour1.jpg"
+            },
+            {
+                "id": 2,
+                "title": "Complément d'objet",
+                "category": "Langue Française (Excellence)",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731765716/bi24q6zldu2mwyefptih.mp4",
+                "description": "Les accords en genre et en nombre sont au cœur de la grammaire française et souvent source de confusion. Ce chapitre vous apprendra à identifier le genre des noms, y compris les exceptions, et à accorder correctement les adjectifs qui les accompagnent. Nous approfondirons les accords des participes passés avec les auxiliaires etre et avoir, en expliquant les règles et les exceptions avec des exemples clairs. Des exercices ciblés vous permettront de pratiquer et de maîtriser ces accords essentiels.",
+                "imagePath": "./assets/images/bg/cour1.jpg"
+            },
+            {
+                "id": 3,
+                "title": "Chapitre 2 : Les pronoms compléments d'objet",
+                "category": "Langue Française (Excellence)",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731765716/bi24q6zldu2mwyefptih.mp4",
+                "description": "Les homophones (mots qui se prononcent de la même façon mais s'écrivent différemment) et les paronymes (mots presque homonymes mais de sens différent) sont des pièges courants en orthographe. Ce chapitre vous aidera à distinguer des mots tels que à et a, ce et se, leur et leurs, en fournissant des astuces mnémotechniques pour mémoriser leurs utilisations respectives. Vous apprendrez également à éviter les confusions entre paronymes comme affecter et effectuer.",
+                "imagePath": "./assets/images/bg/cour1.jpg"
+            },
+            {
+                "id": 4,
+                "title": "Chapitre 3 : les 7 conseils pour bien utiliser français facile",
+                "category": "Langue Française (Excellence)",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731765941/zd06ma9w4pytadxqkcsr.mp4",
+                "description": "La conjugaison française est réputée pour sa complexité, avec ses nombreux temps et modes. Ce chapitre couvre en détail les verbes des trois groupes, en mettant l'accent sur les verbes irréguliers les plus courants. Vous étudierez les terminaisons verbales aux temps simples et composés, tels que le présent, l'imparfait, le passé simple, le futur, le conditionnel et le subjonctif. Des tableaux récapitulatifs et des exercices pratiques vous aideront à intégrer ces conjugaisons et à les utiliser avec aisance.",
+                "imagePath": "./assets/images/bg/cour1.jpg"
+            },
+            {
+                "id": 5,
+                "title": "Chapitre 4 : Les pronoms compléments en français",
+                "category": "Langue Française (Excellence)",
+                "videoSrc": "./assets/videos/Videos platforme/francais cours/Y et EN - Les pronoms compléments en français (Partie 2).mp4",
+                "description": "Certaines mots français présentent des difficultés orthographiques particulières, que ce soit en raison de leur prononciation, de leur étymologie ou de leur usage. Ce chapitre recense ces mots souvent mal orthographiés, comme accueil, rhythmique, occasionnellement, et propose des techniques pour en mémoriser l'orthographe correcte. Vous découvrirez comment décomposer les mots, utiliser des associations d'idées et d'autres méthodes pour faciliter l'apprentissage.",
+                "imagePath": "./assets/images/bg/cour1.jpg"
+            },
+            {
+                "id": 6,
+                "title": "Chapitre 5 : L' accord des participes passés suivis d'un infinitif",
+                "category": "Langue Française (Excellence)",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731766105/ixnzwtp1zcexaeua3qdo.mp4",
+                "description": "Les accents en français ne sont pas seulement décoratifs ; ils peuvent changer le sens d'un mot (par exemple, ou vs où). Ce chapitre détaille l'utilisation correcte des accents aigus, graves, circonflexes, tréma, et de la cédille. Vous apprendrez les règles qui régissent leur emploi et les exceptions à connaître. De plus, nous explorerons la ponctuation française, en expliquant l'usage approprié des virgules, points-virgules, deux-points, tirets, parenthèses, guillemets, points d'interrogation et d'exclamation, afin d'améliorer la clarté et la fluidité de vos écrits.",
+                "imagePath": "./assets/images/bg/cour1.jpg"
+            },
+            {
+                "id": 7,
+                "title": "Chapitre 6 : Le Passé Composé",
+                "category": "Langue Française (Excellence)",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731766177/bh4kdwpzchvsheho4imp.mp4",
+                "description": "Les mots composés peuvent être source de confusion : doivent-ils être écrits en un seul mot, avec un trait d'union, ou séparés ? Ce chapitre vous guidera à travers les règles qui déterminent l'écriture des mots composés, en fonction de leur nature grammaticale (noms, verbes, adjectifs) et de leur usage. Vous verrez des cas spécifiques, comme les verbes pronominaux, les adverbes, et les locutions, avec de nombreux exemples pour illustrer chaque règle.",
+                "imagePath": "./assets/images/bg/cour1.jpg"
+            },
+            {
+                "id": 8,
+                "title": "Chapitre 7 : Subjonctif présent français",
+                "category": "Langue Française (Excellence)",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731766254/wvwi4ctfpv0myplkfmpq.mp4",
+                "description": "La langue française est riche en exceptions qui défient souvent la logique des règles générales. Ce chapitre explore ces particularités, telles que les pluriels irréguliers (cheval -> chevaux), les féminins atypiques ( ambassadeur ->  ambassadrice ), et les verbes aux conjugaisons spéciales ( vaincre, cuire ). En comprenant ces exceptions, vous serez mieux équipé pour écrire avec précision et confiance.",
+                "imagePath": "./assets/images/bg/cour1.jpg"
+            },
+            {
+                "id": 9,
+                "title": "Chapitre 8 : Le Conditionnel Présent",
+                "category": "Langue Française (Excellence)",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731766254/wvwi4ctfpv0myplkfmpq.mp4",
+                "description": "Même les écrivains expérimentés peuvent commettre des erreurs fréquentes. Ce chapitre vous offre une collection d'astuces pratiques pour éviter les fautes d'accord, de conjugaison, et d'orthographe. Vous apprendrez à identifier les contextes à risque, à utiliser des repères mnémotechniques, et à adopter des habitudes de vérification qui amélioreront considérablement la qualité de vos écrits.",
+                "imagePath": "./assets/images/bg/cour1.jpg"
+            },
+            {
+                "id": 10,
+                "title": "Chapitre 9 : Comment placer les adjectifs en français",
+                "category": "Langue Française (Excellence)",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731766361/vert7i8ckjsctexupcyz.mp4",
+                "description": "La mise en pratique est essentielle pour consolider vos acquis. Ce chapitre propose une série d'exercices progressifs, couvrant tous les sujets abordés dans le cours. Des dictées préparées vous permettront de tester votre compréhension et votre application des règles orthographiques dans un contexte réaliste. Chaque exercice est accompagné de corrections détaillées pour vous aider à comprendre vos erreurs et à progresser.",
+                "imagePath": "./assets/images/bg/cour1.jpg"
+            },
+            {
+                "id": 11,
+                "title": "Langue Française Chapitre 10 : Discours DIRECT et INDIRECT en français",
+                "category": "Langue Française (Excellence)",
+                "videoSrc": "./assets/videos/Videos platforme/francais cours/Discours DIRECT et INDIRECT en français ： Leçon complète.mp4",
+                "description": "La relecture est une compétence clé pour assurer la qualité de vos écrits. Dans ce dernier chapitre, vous apprendrez des méthodes pour relire vos textes de manière systématique et efficace. Nous aborderons des techniques pour détecter les fautes d'orthographe, de grammaire, de conjugaison, ainsi que les incohérences stylistiques. Vous découvrirez comment utiliser les outils de correction à votre disposition sans en dépendre entièrement, afin de développer votre autonomie.",
+                "imagePath": "./assets/images/bg/cour1.jpg"
+            }
+        ]
+    },
+    {
+        "id": "aLangue Française2",
+        "name": "Langue Française (Orthotypographie)",
+        "description": "Remise à niveau d'orthographe en langue française (Orthotypographie)",
+        "courses": [
+            {
+                "id": 12,
+                "title": "Imparfait Cours COMPLET",
+                "category": "Langue Française (Orthotypographie)",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731766538/ug43o0mhd6jcf06zozgd.mp4",
+                "description": "Dans ce premier chapitre, nous revisiterons les bases de l'orthographe. Vous renforcerez vos connaissances sur les règles essentielles qui régissent la formation des mots : l'utilisation des lettres muettes, les consonnes doubles, les voyelles, et les exceptions courantes. Nous aborderons également les racines étymologiques pour comprendre l'origine de certaines orthographes complexes. Ce socle de connaissances est indispensable pour progresser sereinement dans les chapitres suivants.",
+                "imagePath": "./assets/images/bg/cour2.jpg"
+            },
+            {
+                "id": 14,
+                "title": "Les articles définis",
+                "category": "Langue Française (Orthotypographie)",
+                "videoSrc": "./assets/videos/Videos platforme/francais cours/Discours DIRECT et INDIRECT en français ： Leçon complète.mp4",
+                "description": "L'orthotypographie concerne les règles d'écriture et de typographie propres à la langue française. Ce chapitre vous initiera aux principes fondamentaux de l'orthotypographie : l'usage correct des majuscules et minuscules, la mise en forme des textes, et les conventions typographiques standard. Vous apprendrez comment ces règles contribuent à la lisibilité et à la cohérence de vos écrits.",
+                "imagePath": "./assets/images/bg/cour2.jpg"
+            },
+            {
+                "id": 15,
+                "title": "10  Connecteurs Logiques INDISPENSABLES",
+                "category": "Langue Française (Orthotypographie)",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731766766/vvrxruhyn3klpohsgfzj.mp4",
+                "description": "La ponctuation est un élément clé pour structurer et clarifier le texte. Dans ce chapitre, nous explorerons en détail l'utilisation appropriée des différents signes de ponctuation : points, virgules, points-virgules, deux-points, points d'exclamation et d'interrogation, guillemets, parenthèses, crochets, tirets, etc. Nous aborderons également les règles spécifiques concernant les espaces insécables, les espaces fines, et les espaces avant ou après les signes de ponctuation, conformément aux normes de la typographie française.",
+                "imagePath": "./assets/images/bg/cour2.jpg"
+            },
+            {
+                "id": 16,
+                "title": "Les pronoms toniques en français",
+                "category": "Langue Française (Orthotypographie)",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731766892/r0ouonq0b1zbv4vhmttn.mp4",
+                "description": "Ce chapitre est consacré à l'emploi correct des majuscules, des accents et autres signes diacritiques. Vous apprendrez quand utiliser les majuscules (noms propres, titres, institutions, etc.), comment les accents s'appliquent aux majuscules en français, et l'importance des cédilles, trémas et accents circonflexes pour le sens des mots. Nous verrons également les exceptions et les cas particuliers qui peuvent prêter à confusion.",
+                "imagePath": "./assets/images/bg/cour2.jpg"
+            },
+            {
+                "id": 17,
+                "title": "La place des pronoms compléments",
+                "category": "Langue Française (Orthotypographie)",
+                "videoSrc": "assets/videos/Videos platforme/francais cours/https://res.cloudinary.com/da2buxzcw/video/upload/v1731766823/tzbvgj4qgpoktg4lcmuz.mp4",
+                "description": "La rédaction moderne implique souvent l'utilisation d'abréviations, de sigles, d'acronymes et de symboles. Ce chapitre vous guidera sur les règles d'écriture et de typographie associées : ponctuation des abréviations, emploi des majuscules pour les sigles, formation des acronymes, et utilisation correcte des symboles (monétaires, mathématiques, unités de mesure, etc.). Vous apprendrez à intégrer ces éléments de manière cohérente et professionnelle dans vos textes.",
+                "imagePath": "./assets/images/bg/cour2.jpg"
+            },
+            {
+                "id": 18,
+                "title": "10 Questions de français",
+                "category": "Langue Française (Orthotypographie)",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731766938/jlptksomefzcphpgruti.mp4",
+                "description": "Maîtriser l'écriture des nombres, des dates et des heures est essentiel pour la précision de vos documents. Dans ce chapitre, nous détaillerons les règles pour écrire les nombres en lettres ou en chiffres, l'utilisation des séparateurs de milliers, et les conventions pour les nombres ordinaux. Nous aborderons également la présentation des dates (format jour/mois/année), des jours de la semaine, des mois, ainsi que l'expression des heures en format 12h et 24h, en respectant les normes typographiques françaises.",
+                "imagePath": "./assets/images/bg/cour2.jpg"
+            },
+            {
+                "id": 19,
+                "title": "Subjonctif ou Indicatif",
+                "category": "Langue Française (Orthotypographie)",
+                "videoSrc": "assets/videos/Videos platforme/francais cours/Bien que et Malgré que - Subjonctif ou Indicatif ？.mp4",
+                "description": "Ce chapitre traite de l'intégration correcte des citations et des dialogues dans vos écrits. Vous apprendrez à utiliser les guillemets français (« »), les tirets cadratins pour les dialogues, et les règles pour les incises et les changements de locuteur. Nous couvrirons également les mises en forme particulières comme l'italique, le gras, le soulignement, et leur emploi approprié pour les titres d'œuvres, les mots étrangers, ou pour mettre en relief certaines parties du texte.",
+                "imagePath": "./assets/images/bg/cour2.jpg"
+            },
+            {
+                "id": 20,
+                "title": "Cours complet Formation et Utilisations",
+                "category": "Langue Française (Orthotypographie)",
+                "videoSrc": "assets/videos/Videos platforme/francais cours/Imparfait - Cours COMPLET - Formation et Utilisations.mp4",
+                "description": "Dans ce dernier chapitre, nous vous fournirons des astuces et des méthodes pour appliquer efficacement les règles d'orthotypographie dans vos écrits quotidiens. Nous présenterons des outils et des ressources en ligne (correcteurs orthographiques, guides typographiques) pour vous assister dans votre démarche. Vous apprendrez également à relire et à corriger vos textes de manière méthodique, afin de déceler et de rectifier les erreurs éventuelles avant publication ou envoi.",
+                "imagePath": "./assets/images/bg/cour2.jpg"
+            }
+        ]
+    },
+    {
+        "id": "aWord",
+        "name": "Traitement de texte (Word)",
+        "description": "Traitement de texte (Word)",
+        "courses": [
+            {
+                "id": 21,
+                "title": "Débuter avec Word",
+                "category": "Traitement de texte (Word)",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731767180/kz24j4xukiudr7sza6vq.mp4",
+                "description": "Dans ce premier chapitre, vous vous familiariserez avec l'interface de Microsoft Word. Nous explorerons les différentes composantes du logiciel : le ruban, les onglets, les groupes de commandes et la barre d'outils d'accès rapide. Vous apprendrez à personnaliser l'interface selon vos besoins et à naviguer aisément entre les différentes fonctionnalités. Ce chapitre pose les bases indispensables pour tirer le meilleur parti de Word.",
+                "imagePath": "./assets/images/bg/word.webp"
+            },
+            {
+                "id": 22,
+                "title": "Mise en forme des paragraphes",
+                "category": "Traitement de texte (Word)",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731767247/txia9vxm1btxgbr1pfq9.mp4",
+                "description": "Ce chapitre vous apprendra à créer, enregistrer, ouvrir et gérer vos documents Word. Vous découvrirez comment utiliser les modèles prédéfinis, organiser vos fichiers et dossiers, et comprendre les différents formats de fichiers (DOCX, PDF, etc.). Nous aborderons également les options de sauvegarde automatique et de récupération de documents pour protéger votre travail.",
+                "imagePath": "./assets/images/bg/word.webp"
+            },
+            {
+                "id": 23,
+                "title": "Faire des présentations professionnelles",
+                "category": "Traitement de texte (Word)",
+                "videoSrc": "./assets/videos/Videos platforme/word videos/Faire des présentations professionnelles de courriers Word.mp4",
+                "description": "La mise en forme est essentielle pour rendre vos documents lisibles et professionnels. Dans ce chapitre, vous apprendrez à appliquer des styles de police, à modifier la taille, la couleur et l'alignement du texte. Nous explorerons les options d'espacement, de retrait et les listes à puces ou numérotées. Vous découvrirez comment utiliser les styles prédéfinis et créer vos propres styles personnalisés pour une mise en forme cohérente.",
+                "imagePath": "./assets/images/bg/word.webp"
+            },
+            {
+                "id": 24,
+                "title": "Mise en forme des paragraphes",
+                "category": "Traitement de texte (Word)",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731767343/zty1ntlvoe6o1nv4asy1.mp4",
+                "description": "Enrichissez vos documents en y insérant des images, des formes, des SmartArt, des graphiques et des tableaux. Ce chapitre vous montrera comment insérer ces objets, les redimensionner, les positionner et les mettre en forme. Vous apprendrez également à utiliser les outils d'alignement et de disposition pour intégrer harmonieusement les éléments visuels dans votre texte.",
+                "imagePath": "./assets/images/bg/word.webp"
+            },
+            {
+                "id": 25,
+                "title": "Tabulation Word pour des alignements",
+                "category": "Traitement de texte (Word)",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731767416/e3tzdif8t92jradbhgvi.mp4",
+                "description": "La gestion des pages est cruciale pour les documents longs ou complexes. Dans ce chapitre, vous comprendrez comment insérer des sauts de page et des sauts de section pour organiser votre document. Nous aborderons les en-têtes et pieds de page, la numérotation des pages et la création de différentes mises en page au sein d'un même document. Vous découvrirez également comment configurer les marges, l'orientation et le format du papier.",
+                "imagePath": "./assets/images/bg/word.webp"
+            },
+            {
+                "id": 26,
+                "title": "Exploiter des modèles",
+                "category": "Traitement de texte (Word)",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731767459/iyuwx78jyo8sscf07xvz.mp4",
+                "description": "Collaborer sur un document nécessite de bons outils de révision. Ce chapitre vous initiera au suivi des modifications, aux commentaires et à la comparaison de documents. Vous apprendrez à accepter ou refuser des modifications, à gérer les commentaires et à assurer un flux de travail collaboratif efficace. Ces compétences sont essentielles pour travailler en équipe ou recevoir des retours sur vos documents.",
+                "imagePath": "./assets/images/bg/word.webp"
+            },
+            {
+                "id": 27,
+                "title": "Créer des tableaux complexes",
+                "category": "Traitement de texte (Word)",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731767524/aoy8qgbfubyqf4mpvrwn.mp4",
+                "description": "Pour les documents longs, une table des matières facilite la navigation. Dans ce chapitre, vous apprendrez à créer automatiquement une table des matières en utilisant les styles de titres. Nous verrons comment mettre à jour la table des matières, personnaliser son apparence et créer des signets et des liens hypertextes. De plus, vous découvrirez comment créer un index pour référencer des termes clés dans votre document.",
+                "imagePath": "./assets/images/bg/word.webp"
+            },
+            {
+                "id": 28,
+                "title": "Réaliser des calculs",
+                "category": "Traitement de texte (Word)",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731767565/ujrtyesvnvlr8alwsjj1.mp4",
+                "description": "Le publipostage est une fonctionnalité puissante pour personnaliser des envois en masse. Ce chapitre vous montrera comment créer des lettres types, des étiquettes, des enveloppes et les fusionner avec une liste de destinataires. Vous apprendrez à utiliser les champs de fusion, à filtrer et trier les données, et à prévisualiser le résultat avant l'impression ou l'envoi par e-mail.",
+                "imagePath": "./assets/images/bg/word.webp"
+            },
+            {
+                "id": 29,
+                "title": "Didacticiel et publipostage",
+                "category": "Traitement de texte (Word)",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731767600/qou4eod0lkiutncidgcv.mp4",
+                "description": "La sécurité de vos documents est primordiale. Dans ce chapitre, vous découvrirez comment protéger vos documents avec des mots de passe, restreindre les modifications et gérer les permissions. Nous aborderons également les options de partage, que ce soit par e-mail, via le cloud (OneDrive) ou en collaboration en temps réel. Vous apprendrez à contrôler les versions et à assurer la confidentialité de vos informations.",
+                "imagePath": "./assets/images/bg/word.webp"
+            },
+            {
+                "id": 30,
+                "title": "Guillemets anglais et préférences",
+                "category": "Traitement de texte (Word)",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731767644/xzdpikyczothbtonfavj.mp4",
+                "description": "Pour conclure, ce chapitre vous fournira des astuces avancées pour optimiser votre utilisation de Word. Vous apprendrez à enregistrer des macros pour automatiser des tâches répétitives, à personnaliser le ruban et la barre d'outils d'accès rapide, et à utiliser des modules complémentaires. Nous explorerons également les options de traduction, de dictée vocale et les outils de recherche intelligente pour améliorer votre productivité.",
+                "imagePath": "./assets/images/bg/word.webp"
+            }
+        ]
+    },
+    {
+        "id": "aWordpress",
+        "name": "Traitement de texte (Wordpress)",
+        "description": "Traitement de texte (Wordpress)",
+        "courses": [
+            {
+                "id": 31,
+                "title": "Introduction Wordpresse",
+                "category": "Wordpresse",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731768017/2cf649b57a27319f776eaa70436d571d.mp4",
+                "description": "Dans ce premier chapitre, nous vous présenterons WordPress, le système de gestion de contenu (CMS) le plus populaire au monde. Vous découvrirez l'histoire de WordPress, ses fonctionnalités clés, et pourquoi il est l'outil privilégié pour la création de sites web et de blogs. Nous aborderons les différences entre WordPress.com et WordPress.org, et vous aiderons à choisir la version qui correspond le mieux à vos besoins.",
+                "imagePath": "./assets/images/bg/wordpresss.png"
+            },
+            {
+                "id": 32,
+                "title": "Découverte et Installation Partie 1",
+                "category": "Wordpresse",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731768055/fcb648e79a4092c09d75b03feb46df81.mp4",
+                "description": "Ce chapitre vous guidera à travers les étapes d'installation de WordPress sur un hébergement web. Vous apprendrez à choisir un nom de domaine, à configurer une base de données, et à installer WordPress manuellement ou via des installateurs en un clic. Nous vous montrerons comment effectuer les premières configurations, y compris les réglages généraux, la gestion des permaliens, et la personnalisation des options de lecture et d'écriture.",
+                "imagePath": "./assets/images/bg/wordpresss.png"
+            },
+            {
+                "id": 33,
+                "title": "Découverte et Installation Partie 2",
+                "category": "Wordpresse",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731768108/13c31c96d32cb0db2d411ce1446d8d69.mp4",
+                "description": "Familiarisez-vous avec le tableau de bord de WordPress et son interface utilisateur. Ce chapitre vous expliquera les différents menus et sections, tels que les articles, les pages, les médias, les commentaires, les plugins et les apparences. Vous apprendrez à naviguer efficacement dans l'interface pour gérer votre site avec aisance.",
+                "imagePath": "./assets/images/bg/wordpresss.png"
+            },
+            {
+                "id": 34,
+                "title": "Découverte et Installation Partie 3",
+                "category": "Wordpresse",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731768150/u0pcfbjxdl5zj8anl61x.mp4",
+                "description": "Apprenez la différence entre les articles et les pages, et comment les créer et les gérer. Nous aborderons la création de contenu, l'édition, la publication, la planification et la gestion de l'état des articles. Vous découvrirez également comment utiliser les brouillons, les révisions, et restaurer des contenus supprimés.",
+                "imagePath": "./assets/images/bg/wordpresss.png"
+            },
+            {
+                "id": 35,
+                "title": "Découverte et Installation Partie 4",
+                "category": "Wordpresse",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731768187/otyrpbznlcaf1etxoncc.mp4",
+                "description": "Ce chapitre est consacré à l'éditeur de blocs Gutenberg, l'outil de création de contenu de WordPress. Vous apprendrez à utiliser les blocs pour structurer vos articles et pages, à insérer différents types de contenu (texte, images, vidéos, citations, etc.), et à personnaliser la mise en page. Nous explorerons également les modèles de blocs et les astuces pour optimiser votre flux de travail.",
+                "imagePath": "./assets/images/bg/wordpresss.png"
+            },
+            {
+                "id": 36,
+                "title": "Découverte et Installation Partie 5",
+                "category": "Wordpresse",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731768225/354bb0ff76ea118c5aca7021de25cf2e.mp4",
+                "description": "Enrichissez vos articles et pages avec des médias. Ce chapitre vous montrera comment importer, gérer et insérer des images, des vidéos, des fichiers audio et autres médias dans votre contenu. Vous apprendrez à créer des galeries d'images, à intégrer des vidéos depuis des plateformes comme YouTube ou Vimeo, et à optimiser vos médias pour une meilleure performance du site.",
+                "imagePath": "./assets/images/bg/wordpresss.png"
+            },
+            {
+                "id": 37,
+                "title": "Les bases de WordPress Posts",
+                "category": "Wordpresse",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731768264/q8fuhb0xv93mboriyhpc.mp4",
+                "description": "Organisez votre contenu pour une meilleure navigation et un référencement optimisé. Dans ce chapitre, nous expliquerons comment créer et gérer les catégories et les étiquettes, et comment les utiliser pour structurer vos articles. Vous comprendrez l'importance de la taxonomie dans WordPress et comment elle affecte l'expérience utilisateur et le SEO.",
+                "imagePath": "./assets/images/bg/wordpresss.png"
+            },
+            {
+                "id": 38,
+                "title": "Catégories et Tags",
+                "category": "Wordpresse",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731768335/r7lkdrr0mhffpelkdrqy.mp4",
+                "description": "Ce chapitre vous guidera dans le choix, l'installation et la personnalisation des thèmes WordPress. Vous découvrirez comment modifier l'apparence de votre site, personnaliser les en-têtes, les arrière-plans, les menus, et utiliser le personnalisateur de thèmes pour ajuster les éléments visuels sans toucher au code. Nous aborderons également les thèmes enfants et l'importance de choisir un thème adapté à vos besoins.",
+                "imagePath": "./assets/images/bg/wordpresss.png"
+            },
+            {
+                "id": 39,
+                "title": "Images",
+                "category": "Wordpresse",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731768384/yiqaaem3ajoeitek8ekf.mp4",
+                "description": "Les plugins étendent les fonctionnalités de WordPress. Ce chapitre vous présentera les plugins indispensables pour améliorer votre site, tels que les plugins de sécurité, de référencement, de performance et de création de formulaires. Vous apprendrez à installer, activer, mettre à jour et gérer les plugins, ainsi qu'à évaluer leur fiabilité et compatibilité.",
+                "imagePath": "./assets/images/bg/wordpresss.png"
+            },
+            {
+                "id": 40,
+                "title": "Intégrer des éléments externes",
+                "category": "Wordpresse",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731768420/cro4rknynnx1mlrjdhmm.mp4",
+                "description": "Améliorez la navigation et la fonctionnalité de votre site en utilisant les menus et les widgets. Ce chapitre vous montrera comment créer des menus de navigation personnalisés, ajouter des pages, des catégories et des liens personnalisés. Vous apprendrez également à utiliser les widgets pour ajouter du contenu et des fonctionnalités dans les zones prédéfinies de votre thème, comme les barres latérales et les pieds de page.",
+                "imagePath": "./assets/images/bg/wordpresss.png"
+            },
+            {
+                "id": 41,
+                "title": "Menus",
+                "category": "Wordpresse",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731768455/g1goyf8g204hphbp9qgq.mp4",
+                "description": "Maximisez la visibilité de votre site sur les moteurs de recherche. Dans ce chapitre, nous aborderons les bases du référencement naturel (SEO) et comment l'appliquer à WordPress. Vous découvrirez des plugins SEO populaires comme Yoast SEO ou Rank Math, et apprendrez à optimiser vos titres, métadescriptions, URL, et à utiliser les sitemaps XML. Nous couvrirons également les bonnes pratiques pour le contenu et la structure du site.",
+                "imagePath": "./assets/images/bg/wordpresss.png"
+            },
+            {
+                "id": 42,
+                "title": "Pages",
+                "category": "Wordpresse",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731768488/k7nwqzujbn3yemhlu9cw.mp4",
+                "description": "Protégez votre site contre les menaces en ligne. Ce chapitre vous enseignera les mesures de sécurité essentielles pour WordPress, y compris la gestion des mises à jour, l'utilisation de plugins de sécurité, la mise en place de sauvegardes régulières et la protection contre les attaques courantes comme le brute force ou les injections SQL. Vous apprendrez à restaurer votre site à partir d'une sauvegarde en cas de problème.",
+                "imagePath": "./assets/images/bg/wordpress.png"
+            },
+            {
+                "id": 43,
+                "title": "Utilisateurs",
+                "category": "Wordpresse",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731768518/ac67909cccb60c4a3441b09cda8334d1.mp4",
+                "description": "Si vous travaillez en équipe ou acceptez des contributions, la gestion des utilisateurs est cruciale. Ce chapitre vous expliquera comment ajouter, modifier et supprimer des utilisateurs, et comment attribuer des rôles et des permissions spécifiques (administrateur, éditeur, auteur, contributeur, abonné). Vous comprendrez comment contrôler l'accès et les capacités de chaque utilisateur pour maintenir la sécurité et l'intégrité de votre site.",
+                "imagePath": "./assets/images/bg/wordpresss.png"
+            },
+            {
+                "id": 44,
+                "title": "Commentaires",
+                "category": "Wordpresse",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731768556/d1bbdf06eba12ac7e544ead1fb2cd28f.mp4",
+                "description": "Ce chapitre approfondit les fonctionnalités de blogging de WordPress. Vous apprendrez à gérer les commentaires, à lutter contre le spam, à configurer les flux RSS, et à utiliser des plugins pour améliorer l'engagement des lecteurs (partage sur les réseaux sociaux, newsletters, etc.). Nous aborderons également les techniques pour planifier votre contenu et analyser les performances de vos articles.",
+                "imagePath": "./assets/images/bg/wordpresss.png"
+            },
+            {
+                "id": 45,
+                "title": "Thèmes et Plugins Partie 1",
+                "category": "Wordpresse",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731768659/ba52ea6ba8af745f1bd33f3d8d03260b.mp4",
+                "description": "Transformez votre site WordPress en boutique en ligne. Ce chapitre vous initiera à WooCommerce, le plugin e-commerce le plus populaire pour WordPress. Vous apprendrez à installer et configurer WooCommerce, à ajouter des produits, à gérer les commandes, les paiements, les expéditions, et à personnaliser votre boutique pour offrir une expérience d'achat optimale.",
+                "imagePath": "./assets/images/bg/wordpresss.png"
+            },
+            {
+                "id": 46,
+                "title": "Thèmes et Plugins Partie 2",
+                "category": "Wordpresse",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731768700/jlqqtbuu9s3rbsrugpur.mp4",
+                "description": "Ouvrez votre site à un public international en le rendant multilingue. Ce chapitre vous montrera comment utiliser des plugins comme Polylang ou WPML pour créer des versions multilingues de votre site. Vous apprendrez à traduire vos contenus, menus, widgets et thèmes, et à gérer les paramètres de langue pour améliorer l'accessibilité globale de votre site.",
+                "imagePath": "./assets/images/bg/wordpresss.png"
+            },
+            {
+                "id": 47,
+                "title": "Thèmes et Plugins Partie 3",
+                "category": "Wordpresse",
+                "videoSrc": "Widgets, Thèmes et Plugins Partie 3 - Personnaliser un thème.mp4",
+                "description": "Assurez-vous que votre site est rapide et performant. Dans ce chapitre, nous couvrirons les techniques pour optimiser la vitesse de chargement de votre site, y compris la mise en cache, l'optimisation des images, la minification des fichiers CSS et JavaScript, et l'utilisation d'un réseau de diffusion de contenu (CDN). Vous apprendrez à utiliser des outils pour tester les performances et identifier les domaines à améliorer.",
+                "imagePath": "./assets/images/bg/wordpresss.png"
+            },
+            {
+                "id": 48,
+                "title": "Thèmes et Plugins Partie 4",
+                "category": "Wordpresse",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731768831/qhro8kyr7gcxymktc2jw.mp4",
+                "description": "Comprenez le comportement de vos visiteurs grâce à l'analyse du trafic. Ce chapitre vous guidera dans l'intégration de Google Analytics avec votre site WordPress. Vous apprendrez à installer le code de suivi, à utiliser des plugins pour faciliter l'intégration, et à interpréter les données pour prendre des décisions éclairées sur le contenu et les stratégies marketing.",
+                "imagePath": "./assets/images/bg/wordpresss.png"
+            },
+            {
+                "id": 49,
+                "title": "Fin Cours WordPress",
+                "category": "Wordpresse",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731768862/83885cbb49ad2df0a17f6ca904aac93e.mp4",
+                "description": "Maintenez votre site en bonne santé sur le long terme. Ce dernier chapitre vous expliquera l'importance des mises à jour régulières pour WordPress, les thèmes et les plugins. Vous apprendrez à planifier la maintenance, à tester les mises à jour sur un environnement de staging, et à résoudre les problèmes courants. Nous aborderons également les bonnes pratiques pour la gestion continue de votre site.",
+                "imagePath": "./assets/images/bg/wordpresss.png"
+            }
+        ]
+    },
+    {
+        "id": "aExcel",
+        "name": "Traitement de texte (Excel, Calc, Google sheets)",
+        "description": "Traitement de texte (Excel, Calc, Google sheets)",
+        "courses": [
+            {
+                "id": 50,
+                "title": "Insérer ou supprimer des lignes",
+                "category": "Excel",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731768942/a7ctuluvdmfpct2jm07o.mp4",
+                "description": "Dans ce chapitre introductif, nous présenterons les objectifs du cours et l'intérêt d'utiliser Excel et Google Docs pour le traitement de texte. Vous découvrirez les forces et spécificités de chaque outil, ainsi que les situations où ils peuvent être utilisés de manière complémentaire. Nous aborderons également les notions de base du traitement de texte et de la manipulation de données textuelles.",
+                "imagePath": "./assets/images/bg/excel.avif"
+            },
+            {
+                "id": 52,
+                "title": "Paramétrer l'impression d'un fichier",
+                "category": "Excel",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731768998/xqafdta2vcqqlqbigd8t.mp4",
+                "description": "Ce chapitre vous familiarisera avec l'interface de Google Docs. Vous apprendrez à créer, ouvrir et enregistrer des documents, à utiliser les menus et les barres d'outils, et à naviguer efficacement dans l'interface utilisateur. Nous aborderons également les avantages de Google Docs en tant qu'outil de traitement de texte en ligne, notamment la collaboration en temps réel et le stockage dans le cloud.",
+                "imagePath": "./assets/images/bg/excel.avif"
+            },
+            {
+                "id": 53,
+                "title": "L'interface de Power",
+                "category": "Excel",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731769072/d41673d21438fb76eb161256f71a3ad1.mp4",
+                "description": "Apprenez à donner à vos documents une apparence professionnelle. Ce chapitre couvre la mise en forme du texte : choix des polices, tailles, styles (gras, italique, souligné), couleurs, alignement, interlignage et espacement. Vous découvrirez comment structurer votre document avec des titres, des sous-titres et des styles personnalisés pour assurer une cohérence visuelle.",
+                "imagePath": "./assets/images/bg/excel.avif"
+            },
+            {
+                "id": 54,
+                "title": "Introduction à l'outil Microsoft",
+                "category": "Excel",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731769118/sfnbdf0vww5zx3jpc7po.mp4",
+                "description": "Enrichissez vos documents en y intégrant des images, des tableaux, des graphiques, des liens hypertextes et des dessins. Ce chapitre vous montrera comment insérer ces éléments, les modifier et les positionner dans le document. Vous apprendrez également à utiliser les commentaires et les notes de bas de page pour ajouter des informations supplémentaires.",
+                "imagePath": "./assets/images/bg/excel.avif"
+            },
+            {
+                "id": 55,
+                "title": "Manipuler les feuilles sur excel",
+                "category": "Excel",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731769168/thd5xo5svwrkgqoc33vu.mp4",
+                "description": "La collaboration est l'un des points forts de Google Docs. Ce chapitre vous montrera comment partager vos documents avec d'autres utilisateurs, définir les autorisations d'accès et collaborer en temps réel. Vous apprendrez à utiliser les fonctionnalités de suivi des modifications, d'historique des versions et de commentaires pour travailler efficacement en équipe.",
+                "imagePath": "./assets/images/bg/excel.avif"
+            },
+            {
+                "id": 56,
+                "title": "Trier et filtrer des données",
+                "category": "Excel",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731769232/jeyekcxtbgil3khsqmfb.mp4",
+                "description": "Bien qu'Excel soit principalement un tableur, il offre des fonctionnalités puissantes pour manipuler du texte. Dans ce chapitre, vous découvrirez l'interface d'Excel, les notions de cellules, de lignes, de colonnes et de feuilles de calcul, et comment ces éléments peuvent être utilisés pour organiser et traiter des données textuelles.",
+                "imagePath": "./assets/images/bg/excel.avif"
+            },
+            {
+                "id": 57,
+                "title": "La notion de liste déroulante",
+                "category": "Excel",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731769276/mgqlmg1q51bldyp0nmpk.mp4",
+                "description": "Ce chapitre vous apprendra à saisir du texte dans Excel et à le mettre en forme. Vous verrez comment ajuster les polices, les tailles, les couleurs, l'alignement et le format des cellules pour améliorer la lisibilité. Nous aborderons également les techniques pour gérer de grandes quantités de texte dans les cellules, comme le renvoi à la ligne automatique et le formatage conditionnel.",
+                "imagePath": "./assets/images/bg/excel.avif"
+            },
+            {
+                "id": 58,
+                "title": "La fonction SIERREUR en pratique",
+                "category": "Excel",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731769317/ti3osup5ipqzwx6hf9qo.mp4",
+                "description": "Excel propose de nombreuses fonctions pour manipuler du texte. Ce chapitre vous guidera à travers les fonctions essentielles telles que CONCATENER, GAUCHE, DROITE, STXT, NBCAR, MAJUSCULE, MINUSCULE et SUPPRESPACE. Vous apprendrez à combiner, extraire et modifier des chaînes de caractères pour transformer et analyser vos données textuelles.",
+                "imagePath": "./assets/images/bg/excel.avif"
+            },
+            {
+                "id": 59,
+                "title": "La fonction RECHERCHEV en pratique",
+                "category": "Excel",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731769365/ahynjexk7xijwu8ssho6.mp4",
+                "description": "Découvrez comment utiliser Excel pour organiser et analyser des données textuelles. Ce chapitre couvrira les techniques de tri, de filtrage et de regroupement des données. Vous apprendrez à utiliser les tableaux croisés dynamiques pour résumer des informations textuelles et à exploiter les outils de validation des données pour contrôler les entrées utilisateur.",
+                "imagePath": "./assets/images/bg/excel.avif"
+            },
+            {
+                "id": 60,
+                "title": "Pratique et Études de Cas",
+                "category": "Excel",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731769402/hku4u5vgjcuae5ig5gmx.mp4",
+                "description": "Apprenez à transférer des données entre Excel et Google Docs. Ce chapitre vous montrera comment importer un document Word dans Google Docs, exporter un document Google Docs en format Word, et importer des données Excel dans Google Sheets. Vous découvrirez les meilleures pratiques pour préserver la mise en forme et l'intégrité des données lors de ces transferts.",
+                "imagePath": "./assets/images/bg/excel.avif"
+            },
+            {
+                "id": 61,
+                "title": "Les références (symbole)",
+                "category": "Excel",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731769444/latebwo4q2hgktnlhtyq.mp4",
+                "description": "Gagnez du temps en automatisant les tâches répétitives grâce aux macros. Ce chapitre vous initiera à l'enregistrement et à l'exécution de macros simples dans Excel. Vous apprendrez les bases de Visual Basic for Applications (VBA) pour créer des scripts qui manipulent du texte et automatisent des processus complexes.",
+                "imagePath": "./assets/images/bg/excel.avif"
+            },
+            {
+                "id": 62,
+                "title": "Les filtres avec segments sur un graphique",
+                "category": "Excel",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731769504/qsxphqy9wj7yllcanxlf.mp4",
+                "description": "Google Docs permet également l'automatisation via Google Apps Script. Dans ce chapitre, vous découvrirez comment écrire des scripts pour automatiser des tâches dans Google Docs, comme le formatage automatique, la génération de documents ou l'intégration avec d'autres services Google. Nous aborderons les concepts fondamentaux de la programmation avec Apps Script.",
+                "imagePath": "./assets/images/bg/excel.avif"
+            },
+            {
+                "id": 63,
+                "title": "La création d'un champ calculé",
+                "category": "Excel",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731769551/wwwpro3imghzjvjlpbfb.mp4",
+                "description": "Approfondissez vos compétences en collaboration. Ce chapitre vous montrera comment gérer les versions de documents, utiliser les fonctionnalités de comparaison, et intégrer des commentaires et des suggestions de manière efficace. Vous apprendrez à coordonner le travail de plusieurs collaborateurs et à résoudre les conflits de modifications.",
+                "imagePath": "./assets/images/bg/excel.avif"
+            },
+            {
+                "id": 64,
+                "title": "Les mises en forme conditionnelles",
+                "category": "Excel",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731769590/jbqjgbztyzxrqsy8nbbw.mp4",
+                "description": "Assurez la confidentialité et l'intégrité de vos documents. Ce chapitre couvrira les méthodes pour protéger vos fichiers dans Excel et Google Docs. Vous verrez comment restreindre l'accès, chiffrer des documents, utiliser des mots de passe et gérer les autorisations pour différents utilisateurs.",
+                "imagePath": "./assets/images/bg/excel.avif"
+            },
+            {
+                "id": 65,
+                "title": "Figer les volets",
+                "category": "Excel",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731769626/i2yw8rdzorccbqa5sxvg.mp4",
+                "description": "Ce chapitre vous aidera à diagnostiquer et résoudre les problèmes que vous pourriez rencontrer. Qu'il s'agisse de fichiers corrompus, de conflits de version, de problèmes de compatibilité ou d'erreurs dans les formules, vous apprendrez à identifier les causes et à appliquer les solutions appropriées.",
+                "imagePath": "./assets/images/bg/excel.avif"
+            }
+        ]
+    },
+    {
+        "id": "aPAO",
+        "name": "Préparation à certification utilisation d'un logiciel de PAO",
+        "description": "Préparation à certification utilisation d'un logiciel de PAO",
+        "courses": [
+            {
+                "id": 66,
+                "title": "Interface et Navigation",
+                "category": "Photoshop",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731769687/2553c3c951b02a6b2ee6350f28b5ebe1.mp4",
+                "description": "Dans ce premier chapitre, nous vous présenterons le monde de la Publication Assistée par Ordinateur. Vous découvrirez l'histoire de la PAO, son importance dans les secteurs de l'édition, du marketing et du design graphique. Nous aborderons les différentes certifications disponibles, leurs avantages professionnels, et comment ce cours vous aidera à les obtenir. Ce chapitre pose les bases pour comprendre les objectifs et les compétences que vous développerez tout au long du programme.",
+                "imagePath": "./assets/images/bg/adobe.webp"
+            },
+            {
+                "id": 67,
+                "title": "Les Calques",
+                "category": "Photoshop",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731769712/da90cf366da52e59ff6e1f71bc158724.mp4",
+                "description": "Ce chapitre vous guidera à travers le processus d'installation du logiciel de PAO choisi. Nous couvrirons les exigences système, les étapes d'installation et les options de configuration initiales. Vous apprendrez à personnaliser l'interface utilisateur, à configurer les préférences et à optimiser le logiciel pour votre flux de travail. Une bonne installation est essentielle pour travailler efficacement et éviter les problèmes techniques.",
+                "imagePath": "./assets/images/bg/adobe.webp"
+            },
+            {
+                "id": 68,
+                "title": "Outils de Sélection",
+                "category": "Photoshop",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731769738/4fb2d4d1a59b3b09445c608cd06e6ae1.mp4",
+                "description": "Familiarisez-vous avec l'interface du logiciel de PAO. Ce chapitre vous présentera les éléments clés : les menus, les barres d'outils, les panneaux, les espaces de travail et les raccourcis clavier. Vous apprendrez à naviguer dans l'interface, à personnaliser votre environnement de travail et à utiliser les fonctionnalités de base pour commencer à créer des documents.",
+                "imagePath": "./assets/images/bg/adobe.webp"
+            },
+            {
+                "id": 69,
+                "title": "Retouches de Base",
+                "category": "Photoshop",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731769765/7b9dbdfcd91ae533c16cd88d3ab1a5cc.mp4",
+                "description": "Dans ce chapitre, vous apprendrez à créer de nouveaux documents en définissant les paramètres essentiels tels que le format de page, les marges, les colonnes et les fonds perdus. Nous aborderons la gestion des pages, y compris l'ajout, la suppression et la réorganisation des pages. Vous découvrirez également comment utiliser les gabarits pour créer des mises en page cohérentes et professionnelles.",
+                "imagePath": "./assets/images/bg/adobe.webp"
+            },
+            {
+                "id": 70,
+                "title": "Ajout de Texte et Effets",
+                "category": "Photoshop",
+                "videoSrc": ".https://res.cloudinary.com/da2buxzcw/video/upload/v1731769788/3a8a264fb52d8af28ae2554562b013e9.mp4",
+                "description": "Maîtrisez l'insertion et la mise en forme du texte dans vos documents. Ce chapitre couvre la création de blocs de texte, l'importation de texte depuis des sources externes et l'utilisation des styles de caractères et de paragraphes pour une mise en forme cohérente. Vous apprendrez à gérer les polices, les tailles, les interlignages, les espacements, ainsi que les options avancées de typographie telles que les césures, les ligatures et les glyphes spéciaux.",
+                "imagePath": "./assets/images/bg/adobe.webp"
+            },
+            {
+                "id": 71,
+                "title": "Découverte de l’Interface et Navigation",
+                "category": "Illustrator",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731716788/fg0sbwuhdny4jnz6rc9l.mp4",
+                "description": "Enrichissez vos documents avec des images et des graphiques. Ce chapitre vous montrera comment importer, placer et ajuster des images dans vos mises en page. Vous apprendrez à gérer les liens vers les fichiers image, à contrôler la résolution et la qualité, et à appliquer des transformations telles que le recadrage, le redimensionnement et la rotation. Nous aborderons également les formats d'image appropriés pour l'impression et le web.",
+                "imagePath": "./assets/images/bg/adobe.webp"
+            },
+            {
+                "id": 72,
+                "title": "Création et Manipulation de Formes",
+                "category": "Illustrator",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731716788/ewvnp8sfzfjc0wuuanj0.mp4",
+                "description": "Ce chapitre est consacré à la gestion des couleurs dans la PAO. Vous apprendrez à créer et à utiliser des nuanciers de couleurs, à appliquer des couleurs aux textes, aux formes et aux arrière-plans. Nous explorerons les modes de couleurs CMJN et RVB, l'utilisation des couleurs Pantone, et l'importance de la gestion des couleurs pour l'impression professionnelle. Vous découvrirez également comment créer des dégradés et des motifs pour ajouter de la profondeur à vos designs.",
+                "imagePath": "./assets/images/bg/adobe.webp"
+            },
+            {
+                "id": 73,
+                "title": "Utilisation de l’Outil Plume et Courbes de Bézier",
+                "category": "Illustrator",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731716788/gnzar9qii2rxpwbmud3l.mp4",
+                "description": "Explorez les outils de dessin pour créer des illustrations vectorielles. Ce chapitre vous initiera aux outils de dessin de base tels que la plume, le crayon, les formes géométriques et les courbes de Bézier. Vous apprendrez à combiner, à modifier et à styliser des formes pour créer des graphiques personnalisés. Les compétences en dessin vectoriel sont essentielles pour enrichir vos documents et créer des éléments visuels uniques.",
+                "imagePath": "./assets/images/bg/adobe.webp"
+            },
+            {
+                "id": 74,
+                "title": "Couleurs et Dégradés",
+                "category": "Illustrator",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731716788/cijlhzjp8qxmdyfqdkji.mp4",
+                "description": "Organisez efficacement vos éléments en utilisant les calques. Ce chapitre vous montrera comment créer, nommer et gérer les calques pour contrôler la superposition des objets dans votre document. Vous apprendrez à verrouiller, à masquer et à grouper des éléments, ce qui facilitera la gestion de mises en page complexes et la modification d'objets spécifiques sans affecter le reste du document.",
+                "imagePath": "./assets/images/bg/adobe.webp"
+            },
+            {
+                "id": 75,
+                "title": "Texte et Effets",
+                "category": "Illustrator",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731716788/m5mhmdixllfl8lsvx9gt.mp4",
+                "description": "Gagnez en efficacité en utilisant les styles et les fonctions d'automatisation. Ce chapitre couvre la création et l'application de styles de caractères, de paragraphes et d'objets pour uniformiser la mise en forme. Vous découvrirez comment utiliser les styles imbriqués, les styles basés sur d'autres styles, et comment mettre à jour globalement la mise en forme en modifiant un style. L'automatisation de la mise en forme vous fera gagner un temps précieux, surtout dans les documents volumineux.",
+                "imagePath": "./assets/images/bg/adobe.webp"
+            },
+            {
+                "id": 76,
+                "title": "Découverte de l’Interface et Navig",
+                "category": "InDesign",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731769823/a17971fd34aa2a624e490b82aba4aed3.mp4",
+                "description": "Apprenez à intégrer des tableaux dans vos documents pour présenter des données de manière claire et structurée. Ce chapitre vous enseignera comment créer des tableaux, importer des données depuis des feuilles de calcul, et mettre en forme les tableaux en ajustant les cellules, les lignes et les colonnes. Vous verrez également comment appliquer des styles de tableau pour une présentation professionnelle.",
+                "imagePath": "./assets/images/bg/adobe.webp"
+            },
+            {
+                "id": 77,
+                "title": "Gestion des Pages et Maquettes",
+                "category": "InDesign",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731769851/027c662067abe686101cff9da90300ae.mp4",
+                "description": "Ce chapitre est dédié aux techniques pour gérer des documents longs tels que les livres, les rapports ou les magazines. Vous apprendrez à utiliser les fonctions de numérotation automatique des pages, à créer des tables des matières dynamiques, des index, des notes de bas de page et des renvois. Nous aborderons également l'utilisation des sections et des styles pour maintenir la cohérence tout au long du document.",
+                "imagePath": "./assets/images/bg/adobe.webp"
+            },
+            {
+                "id": 78,
+                "title": "Travailler avec le Texte",
+                "category": "InDesign",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731769875/d8f298818a40cc5b1afff779d97134cf.mp4",
+                "description": "Assurez-vous que vos documents sont prêts pour l'impression ou la distribution numérique. Ce chapitre vous guidera dans les étapes de vérification pré-presse, y compris le contrôle en amont pour détecter les erreurs potentielles. Vous apprendrez à exporter vos documents dans différents formats tels que PDF, EPUB ou JPEG, en configurant les paramètres appropriés pour la résolution, les fonds perdus et les profils colorimétriques.",
+                "imagePath": "./assets/images/bg/adobe.webp"
+            },
+            {
+                "id": 79,
+                "title": "Travailler avec les Images et les Objets",
+                "category": "InDesign",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731769905/43d009fb6c3d8911d431cbb2f2dd9967.mp4",
+                "description": "Découvrez comment créer des documents interactifs pour le web et les appareils mobiles. Ce chapitre vous montrera comment ajouter des hyperliens, des boutons, des animations et des médias enrichis à vos documents. Vous apprendrez à exporter des publications numériques interactives et à optimiser le contenu pour une expérience utilisateur engageante sur différentes plateformes.",
+                "imagePath": "./assets/images/bg/adobe.webp"
+            },
+            {
+                "id": 80,
+                "title": "Couleur et Effets",
+                "category": "InDesign",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731769934/9fa2a16a094b1bb07294d0d55f622b1f.mp4",
+                "description": "Dans ce dernier chapitre, nous vous aiderons à vous préparer pour l'examen de certification. Nous réviserons les sujets clés, vous fournirons des conseils sur la gestion du temps et des techniques pour aborder les questions de l'examen. Vous aurez accès à des examens blancs et à des exercices pratiques pour évaluer votre niveau de préparation. Nous partagerons également des astuces pour rester calme et concentré le jour de l'examen.",
+                "imagePath": "./assets/images/bg/adobe.webp"
+            }
+        ]
+    },
+    {
+        "id": "aCAO",
+        "name": "Préparation à certification utilisation d'un logiciel de CAO 3D",
+        "description": "Préparation à certification utilisation d'un logiciel de CAO 3D",
+        "courses": [
+            {
+                "id": 81,
+                "title": "Introduction",
+                "category": "CAO",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731770010/3a32a642ed5eda150d7aa97039d434d7.mp4",
+                "description": "Dans ce premier chapitre, nous vous présenterons le monde de la Conception Assistée par Ordinateur en 3D. Vous découvrirez l'histoire et l'évolution de la CAO, son importance dans les secteurs de l'ingénierie, de l'architecture, de la mécanique et du design industriel. Nous aborderons les différentes certifications disponibles (comme l'Autodesk Certified User, le Certified SOLIDWORKS Associate, etc.), leurs avantages professionnels, et comment ce cours vous aidera à les obtenir. Ce chapitre pose les bases pour comprendre les objectifs et les compétences que vous développerez tout au long du programme.",
+                "imagePath": "./assets/images/bg/3D.jpg"
+            },
+            {
+                "id": 82,
+                "title": "CATIA et SOLIDWORKS",
+                "category": "CAO",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731770079/9e6f8fa61a3e1fcaa9b3899ae45a56ea.mp4",
+                "description": "Ce chapitre vous guidera à travers le processus d'installation du logiciel de CAO 3D choisi. Nous couvrirons les exigences système, les étapes d'installation, l'activation de la licence, et les options de configuration initiales. Vous apprendrez à personnaliser l'interface utilisateur, à configurer les unités de mesure, les préférences d'affichage, et à optimiser le logiciel pour votre flux de travail. Une installation correcte et une configuration adaptée sont essentielles pour travailler efficacement et éviter les problèmes techniques.",
+                "imagePath": "./assets/images/bg/3D.jpg"
+            },
+            {
+                "id": 83,
+                "title": "3DDrive pour SOLIDWORKS",
+                "category": "CAO",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731770118/f4818ed1ac6c2858008b5e5b1f3e5578.mp4",
+                "description": "Familiarisez-vous avec l'interface du logiciel de CAO 3D. Ce chapitre vous présentera les éléments clés : les menus, les barres d'outils, les rubans, les palettes de commandes, l'arborescence des fonctionnalités, et les raccourcis clavier. Vous apprendrez à naviguer dans l'espace 3D, à utiliser les vues orthogonales et isométriques, et à manipuler les objets. Nous aborderons les outils de base tels que la création de croquis 2D, les opérations d'extrusion, de révolution, et les fonctions simples de modélisation.",
+                "imagePath": "./assets/images/bg/3D.jpg"
+            },
+            {
+                "id": 84,
+                "title": "Gestion des gros assemblages",
+                "category": "CAO",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731770160/fhjwdz9xsmojey5dc89v.mp4",
+                "description": "Ce chapitre approfondit les techniques de modélisation pour créer des pièces complexes. Vous apprendrez à utiliser les opérations booléennes, les fonctions de balayage, de lissage, de coque, et de nervure. Nous explorerons la modélisation paramétrique, les relations d'esquisse, les contraintes géométriques, et les variables globales. Vous découvrirez comment créer des surfaces complexes, des formes organiques, et comment gérer les erreurs de modélisation courantes.",
+                "imagePath": "./assets/images/bg/3D.jpg"
+            },
+            {
+                "id": 85,
+                "title": "3DDrive pour CATIA V5",
+                "category": "CAO",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731770197/718107599143816bd3123604a33fdfe2.mp4",
+                "description": "Dans ce chapitre, vous apprendrez à créer des assemblages en réunissant plusieurs pièces. Nous couvrirons les méthodes pour insérer des composants, définir des contraintes d'assemblage (coïncidence, concentricité, parallélisme, etc.), et vérifier les interférences entre les pièces. Vous découvrirez comment simuler des mouvements, créer des animations de mécanismes, et analyser le fonctionnement cinématique de vos assemblages.",
+                "imagePath": "./assets/images/bg/3D.jpg"
+            },
+            {
+                "id": 86,
+                "title": "Assemblage multi-CAO",
+                "category": "CAO",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731770228/95a86831d38ee3e3503a25ed54d4815c.mp4",
+                "description": "La création de plans techniques est essentielle pour la fabrication et la communication avec les équipes. Ce chapitre vous montrera comment générer des mises en plan à partir de vos modèles 3D, ajouter des vues standard, des coupes, des sections et des détails. Vous apprendrez à annoter vos plans avec des cotes, des tolérances, des symboles de surface, et des notes techniques. Nous aborderons également les normes de dessin industriel (ISO, ANSI) pour assurer la conformité de vos documents.",
+                "imagePath": "./assets/images/bg/3D.jpg"
+            },
+            {
+                "id": 87,
+                "title": "Connecteur SolidWorks Mise en plan",
+                "category": "CAO",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731770277/6c1585b444d6ad2607126e14846a2e27.mp4",
+                "description": "Ce chapitre est consacré à la création de rendus photoréalistes pour présenter vos modèles de manière professionnelle. Vous apprendrez à appliquer des matériaux, des textures, des éclairages, et à configurer les paramètres de rendu. Nous explorerons les environnements HDRI, les réglages de la caméra, et les techniques pour améliorer la qualité visuelle de vos images. Ces compétences sont particulièrement utiles pour les présentations clients, les portfolios, et la communication marketing.",
+                "imagePath": "./assets/images/bg/3D.jpg"
+            },
+            {
+                "id": 88,
+                "title": "Table paramétrique avec SOLIDWORKS",
+                "category": "CAO",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731770316/4a00003018ebf76de0c8e71afde7d1fc.mp4",
+                "description": "Dans ce chapitre, vous découvrirez les outils d'analyse et de simulation intégrés au logiciel de CAO 3D. Vous apprendrez à effectuer des analyses par éléments finis (FEA) pour étudier le comportement mécanique de vos pièces sous différentes charges. Nous aborderons les simulations de contraintes, de déformations, de vibrations, et les analyses thermiques. Vous verrez comment interpréter les résultats pour optimiser vos conceptions et assurer la fiabilité de vos produits.",
+                "imagePath": "./assets/images/bg/3D.jpg"
+            },
+            {
+                "id": 89,
+                "title": "Travail collaboratif",
+                "category": "CAO",
+                "videoSrc": "https://res.cloudinary.com/da2buxzcw/video/upload/v1731770400/qc9ydkig5h8eogwd3kzq.mp4",
+                "description": "Dans ce dernier chapitre, nous vous aiderons à vous préparer spécifiquement pour l'examen de certification. Nous réviserons les sujets clés abordés dans les chapitres précédents, et nous vous fournirons des conseils sur la gestion du temps et les techniques pour aborder les questions théoriques et pratiques de l'examen. Vous aurez accès à des examens blancs, des questionnaires à choix multiples, et des exercices pratiques pour évaluer votre niveau de préparation. Nous partagerons également des astuces pour rester calme et concentré le jour de l'examen, ainsi que des informations sur les procédures d'inscription et le déroulement de l'examen.",
+                "imagePath": "./assets/images/bg/3D.jpg"
+            }
+        ]
+    }
+]
