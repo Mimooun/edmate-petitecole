@@ -654,7 +654,7 @@
                                     </button>
                                     <a href="veiw-details.html" class="text-heading fw-medium text-md text-line-1 w-190">GUY LEMAITRE</a>
                                     <a href="veiw-details.html" class="text-heading fw-medium mb-0 text-line-1 max-w-740">Bonjour, d'accord merci</a>
-                                    <span class="text-heading fw-medium min-w-max-content ms-auto">22/03/2024</span>
+                                    <span class="text-heading fw-medium min-w-max-content ms-auto">12/29/2022</span>
                                 </li>
                                 <li class="email-item px-24 py-16 flex-align gap-16 border-bottom border-gray-100 cursor-pointer min-w-max-content">
                                     <div class="form-check style-check flex-center mb-0 gap-8">
@@ -665,7 +665,7 @@
                                     </button>
                                     <a href="conv2.html" class="text-heading fw-medium text-md text-line-1 w-190">Naoual El OUATHA</a>
                                     <a href="conv2.html" class="text-heading fw-medium mb-0 text-line-1 max-w-740">Merci beacoup </a>
-                                    <span class="text-heading fw-medium min-w-max-content ms-auto">23/03/2024</span>
+                                    <span class="text-heading fw-medium min-w-max-content ms-auto">04/04/2023</span>
                                 </li>
                                 <li class="email-item px-24 py-16 flex-align gap-16 border-bottom border-gray-100 cursor-pointer min-w-max-content">
                                     <div class="form-check style-check flex-center mb-0 gap-8">
@@ -676,7 +676,7 @@
                                     </button>
                                     <a href="conv3.html" class="text-heading fw-medium text-md text-line-1 w-190">Salome PAPUCHON</a>
                                     <a href="conv3.html" class="text-heading fw-medium mb-0 text-line-1 max-w-740">Merci ! </a>
-                                    <span class="text-heading fw-medium min-w-max-content ms-auto">03/04/2024</span>
+                                    <span class="text-heading fw-medium min-w-max-content ms-auto">01/10/2023</span>
                                 </li>
                                 <li class="email-item px-24 py-16 flex-align gap-16 border-bottom border-gray-100 cursor-pointer min-w-max-content">
                                     <div class="form-check style-check flex-center mb-0 gap-8">
@@ -687,7 +687,7 @@
                                     </button>
                                     <a href="conv4.html" class="text-heading fw-medium text-md text-line-1 w-190">GABAYET Benjamin</a>
                                     <a href="conv4.html" class="text-heading fw-medium mb-0 text-line-1 max-w-740">Ok, merci !</a>
-                                    <span class="text-heading fw-medium min-w-max-content ms-auto">05/04/2024</span>
+                                    <span class="text-heading fw-medium min-w-max-content ms-auto">01/13/2023</span>
                                 </li>
                                 <li class="email-item px-24 py-16 flex-align gap-16 border-bottom border-gray-100 cursor-pointer min-w-max-content">
                                     <div class="form-check style-check flex-center mb-0 gap-8">
@@ -698,7 +698,7 @@
                                     </button>
                                     <a href="conv5.html" class="text-heading fw-medium text-md text-line-1 w-190">MESSAADI Redha</a>
                                     <a href="conv5.html" class="text-heading fw-medium mb-0 text-line-1 max-w-740">ça marche !</a>
-                                    <span class="text-heading fw-medium min-w-max-content ms-auto">07/06/2024</span>
+                                    <span class="text-heading fw-medium min-w-max-content ms-auto">01/23/2023</span>
                                 </li>
                                 <li class="email-item px-24 py-16 flex-align gap-16 border-bottom border-gray-100 cursor-pointer min-w-max-content">
                                     <div class="form-check style-check flex-center mb-0 gap-8">
@@ -709,7 +709,7 @@
                                     </button>
                                     <a href="conv6.html" class="text-heading fw-medium text-md text-line-1 w-190">LASO VIGRINIE</a>
                                     <a href="conv6.html" class="text-heading fw-medium mb-0 text-line-1 max-w-740">Super ! merci</a>
-                                    <span class="text-heading fw-medium min-w-max-content ms-auto">17/06/2024</span>
+                                    <span class="text-heading fw-medium min-w-max-content ms-auto">04/03/2023</span>
                                 </li>
                                 <li class="email-item px-24 py-16 flex-align gap-16 border-bottom border-gray-100 cursor-pointer min-w-max-content">
                                     <div class="form-check style-check flex-center mb-0 gap-8">
@@ -718,7 +718,7 @@
                                     <button type="button" class="starred-button icon text-xl text-secondary-light line-height-1 d-flex">
                                         <i class="ph ph-star"></i>
                                     </button>
-                                    <a href="conv7.html" class="text-heading fw-medium text-md text-line-1 w-190">ICET Mehdaoui</a>
+                                    <a href="conv7.html" class="text-heading fw-medium text-md text-line-1 w-190">IDEL Mehdaoui</a>
                                     <a href="conv7.html" class="text-heading fw-medium mb-0 text-line-1 max-w-740">Bien reçu, merci</a>
                                     <span class="text-heading fw-medium min-w-max-content ms-auto">28/06/2024</span>
                                 </li>
@@ -825,7 +825,7 @@
         const emailList = document.querySelector('.overflow-x-auto');
         
         // Preserve existing content and dynamically add new ones
-        fetch('assets/data/modifiedStagaireLinks.json') // Adjusted JSON file path
+        fetch('assets/data/modifiedStagaireLinks_updated_formatted.json') // Adjusted JSON file path
             .then(response => response.json())
             .then(data => {
                 // Loop through each email entry and append to the existing list
@@ -840,7 +840,7 @@
                             </button>
                             <a href="conversations.html?id=${email.link}" class="text-heading fw-medium text-md text-line-1 w-190">${email.PRENOM} ${email.NOM}</a>
                             <a href="conversations.html?id=${email.link}" class="text-heading fw-medium mb-0 text-line-1 max-w-740">${email.MESSAGE}</a>
-                            <span class="text-heading fw-medium min-w-max-content ms-auto">${email.DATE_DEBUT_SESSION}</span>
+                            <span class="text-heading fw-medium min-w-max-content ms-auto">${email.DATE_CONVOCATION_J7}</span>
                         </li>
 
                       
