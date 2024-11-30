@@ -601,7 +601,7 @@
                                                      Pour faciliter votre expérience, tous les documents essentiels sont disponibles sur notre drive auquel vous avez un accès personnel.<br><br>
                                                      Vous y trouverez :<br>
 
-                                                   - La convocation et le règlement intérieur<br>
+                                                   - La convocation et le  <a href="https://airtable.com/app088KqMnS7ADB1E/pagC71qFKompmHIpE/form" target="_blank">réglement intérieur </a> <span style="color : red;font-weight:bold;"> merci de le lire et bien le remplir</span><br>
 
                                                    - Les exercices et cas pratiques<br>
 
@@ -619,7 +619,7 @@
                                                     <br>
                                                     Pour toute assistance pédagogique ou technique, n’hésitez pas à contacter Valerus Elvens. Nous sommes là pour vous aider et assurer une formation réussie et enrichissante.<br>
 
-                                                    
+                                                    Téléphone : 07 60 93 29 34<br>
                                                     Adresse e-mail : lapetiteecole.contacts@gmail.com<br>
 
                                                     
@@ -708,7 +708,66 @@
     
     <!-- main js -->
     <script src="assets/js/main.js"></script>
+    <!-- <script>
+        // Get the conversation ID from the URL
+        const params = new URLSearchParams(window.location.search);
+        const conversationId = params.get('id');
 
+        // Fetch the JSON file
+        fetch('assets/data/modifiedStagaireLinks.json')
+            .then(response => response.json())
+            .then(data => {
+                // Find the conversation by ID
+                const conversation = data.find(person => person.link.includes(conversationId));
+
+                if (conversation) {
+                    // Update the title
+                    document.getElementById('conversation-title').textContent = `${conversation.PRENOM} ${conversation.NOM}`;
+
+                    // Generate messages dynamically
+                    const messages = [
+                    // { sender: 'Vous', message: `Bonjour ${conversation.PRENOM},` , type: 'vous'},
+                    // { sender: `${conversation.PRENOM}`, message: 'Bonjour !', type : 'participant' },
+
+                        {
+                            sender: 'Vous', message: `Nous sommes ravis de vous accueillir et de vous accompagner dans votre parcours de formation.<br>
+
+Pour faciliter votre expérience, tous les documents essentiels sont disponibles sur notre drive auquel vous avez un accès personnel.<br><br>
+
+Vous y trouverez :<br><br>
+- La convocation et le règlement intérieur, <span style ="font-weight : bold; color : red">merci de lire et cocher le réglement intérieur</span><br>
+- Les exercices et cas pratiques<br>
+- Le support de cours<br>
+- Tous les éléments administratifs nécessaires<br>
+- Un tutoriel pour vous guider dans l’utilisation de la plateforme<br>
+- Vous trouverez ci-dessous le lien vers le drive, qui vous donnera un accès direct à ces ressources.<br><br>
+
+ <a href="${conversation.link}">Lien drive ici</a><br><br>
+
+Pour toute assistance pédagogique ou technique, n’hésitez pas à nous contacter<br> Nous sommes là pour vous aider et assurer une formation réussie et enrichissante.<br>
+Adresse e-mail : lapetiteecole.contacts@gmail.com<br>
+Téléphone :  07 60 93 29 34 <br><br>
+Bonne formation !`, type: 'vous'},
+                        { sender: `${conversation.PRENOM}`, message: 'Merci beaucoup !', type :'participant' },
+                        { sender: `Vous`, message: 'Vous avez des questions  ?', type :'vous' },
+                        { sender: `${conversation.PRENOM}`, message: 'Pas pour le moment merci bcp !', type :'participant' },
+
+                        
+                    ];
+
+                    const messagesContainer = document.getElementById('conversation-messages');
+                    messages.forEach(msg => {
+                        const messageEl = document.createElement('div');
+                        messageEl.className = `message ${msg.type}`;
+                        messageEl.innerHTML = `<strong>${msg.sender}:</strong> ${msg.message}`;
+                        messagesContainer.appendChild(messageEl);
+                    });
+                } else {
+                    document.getElementById('conversation-title').textContent = 'Conversation Not Found';
+                }
+            })
+            .catch(error => console.error('Error fetching conversation:', error));
+    </script> -->
 
     
     <script>

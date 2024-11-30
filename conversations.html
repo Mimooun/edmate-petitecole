@@ -13,6 +13,7 @@
     <div class="email-layout">
         <!-- Sidebar -->
         <div class="sidebar">
+            <img class="logo-area" src="./assets/images/logo/la-petite-ecole-logo-edit.png"/>
             <h2>Home</h2>
             <ul class="menu">
                 <li><button class="compose-btn">Rédiger</button></li>
@@ -29,7 +30,7 @@
         <div class="email-content">
             <!-- Email Header -->
             <div class="email-header">
-                <a href="email.html"><button  class="back-btn"> Back</button></a>
+                <a href="email.html"><button  class="back-btn"> Précedent</button></a>
                 <h1 id="conversation-title">Loading...</h1>
                 <div class="options">
                     <i class="star-icon">&#9733;</i>
@@ -49,66 +50,96 @@
             </div>
         </div>
     </div>
-
     <script>
         // Get the conversation ID from the URL
         const params = new URLSearchParams(window.location.search);
         const conversationId = params.get('id');
+    
+        // Define possible thank-you messages
+        const thankYouMessages = [
+            "Merci beaucoup pour cette opportunité. Je vais faire de mon mieux pour réussir !",
+            "Je suis reconnaissant(e) pour cette formation. Merci pour votre soutien !",
+            "Merci de croire en nous et de nous guider sur ce chemin de réussite.",
+            "Un grand merci pour cette chance d’apprendre et de progresser !",
+            "Je tiens à vous remercier pour tout ce que vous faites pour notre réussite.",
+            "Merci pour votre accompagnement, je suis prêt(e) à relever les défis !",
+            "C'est une chance incroyable de participer à cette formation. Merci beaucoup !",
+            "Je suis très reconnaissant(e) pour cette opportunité d'améliorer mes compétences.",
+            "Merci pour votre encouragement et pour cette belle initiative.",
+            "Je vous remercie sincèrement pour cette formation enrichissante.",
+            "Merci de m’avoir accueilli(e) dans ce programme. Je vais en tirer le meilleur !",
+            "Je suis vraiment reconnaissant(e) pour cette chance de grandir et de réussir. Merci !"
+        ];
+        const followUpMessages = [
+        "Pas de questions pour le moment, merci encore !",
+        "Je n'ai pas de questions pour l'instant, merci beaucoup !",
+        "Aucune question pour l'instant, merci encore !",
+        "Merci encore ! Pas de questions pour le moment.",
+        "Je n'ai rien à demander pour l'instant, merci encore !",
+        "Pas de questions pour l'instant, merci infiniment !",
+      	"Je n’ai pas de questions pour l’instant, tout est parfait. Merci encore !",
+		"Tout va bien de mon côté, merci infiniment pour votre aide !”",
+		"Aucune question pour le moment, je suis prêt à avancer. Merci !”",
+	    "Merci pour toutes ces informations. Pas de questions pour le moment !",
+		"Tout est bon de mon côté, merci pour votre soutien !",
+		"Je n’ai pas de questions pour l’instant, merci pour votre disponibilité !",
+		"Tout est clair, merci encore pour cette belle opportunité !",
+	    "Merci beaucoup, tout est parfait pour le moment !",
+		"Aucune question pour l’instant, merci pour vos explications"
+        
+    ];
 
+    
         // Fetch the JSON file
         fetch('assets/data/modifiedStagaireLinks.json')
             .then(response => response.json())
             .then(data => {
                 // Find the conversation by ID
                 const conversation = data.find(person => person.link.includes(conversationId));
-
+    
                 if (conversation) {
                     // Update the title
                     document.getElementById('conversation-title').textContent = `${conversation.PRENOM} ${conversation.NOM}`;
+    
+                    // Pick a random thank-you message for the student
+                    const randomThankYou = thankYouMessages[Math.floor(Math.random() * thankYouMessages.length)];
+                      // Pick a random follow-up message for the student
+                    const randomFollowUp = followUpMessages[Math.floor(Math.random() * followUpMessages.length)];
 
                     // Generate messages dynamically
                     const messages = [
-                    // { sender: 'Vous', message: `Bonjour ${conversation.PRENOM},` , type: 'vous'},
-                    // { sender: `${conversation.PRENOM}`, message: 'Bonjour !', type : 'participant' },
-
                         {
-                            sender: 'Vous', message: `Nous sommes ravis de vous accueillir et de vous accompagner dans votre parcours de formation.<br>
-
-Pour faciliter votre expérience, tous les documents essentiels sont disponibles sur notre drive auquel vous avez un accès personnel.<br><br>
-
-Vous y trouverez :<br><br>
-- La convocation et le règlement intérieur, <span style ="font-weight : bold; color : red">merci de lire et cocher le réglement intérieur</span><br>
-- Les exercices et cas pratiques<br>
-- Le support de cours<br>
-- Tous les éléments administratifs nécessaires<br>
-- Un tutoriel pour vous guider dans l’utilisation de la plateforme<br>
-- Vous trouverez ci-dessous le lien vers le drive, qui vous donnera un accès direct à ces ressources.<br><br>
-
- <a href="${conversation.link}">Lien drive ici</a><br><br>
-
-Pour toute assistance pédagogique ou technique, n’hésitez pas à nous contacter<br> Nous sommes là pour vous aider et assurer une formation réussie et enrichissante.<br>
-Adresse e-mail : lapetiteecole.contacts@gmail.com<br>
-Téléphone :  07 60 93 29 34 <br><br>
-Bonne formation !`, type: 'vous'},
-                        { sender: `${conversation.PRENOM}`, message: 'Merci beaucoup !', type :'participant' },
-                        { sender: `Vous`, message: 'Vous avez des questions  ?', type :'vous' },
-                        { sender: `${conversation.PRENOM}`, message: 'Pas pour le moment merci bcp !', type :'participant' },
-
-                        
+                            sender: 'Valerus', message: `Nous sommes ravis de vous accueillir et de vous accompagner dans votre parcours de formation.<br>
+    Pour faciliter votre expérience, tous les documents essentiels sont disponibles sur notre drive auquel vous avez un accès personnel.<br><br>
+    Vous y trouverez :<br><br>
+    - La convocation et le règlement intérieur, <span style ="font-weight : bold; color : red">merci de lire et remplir  <a href="https://airtable.com/app088KqMnS7ADB1E/pagC71qFKompmHIpE/form" target="_blank">le réglement intérieur</a></span><br>
+    - Les exercices et cas pratiques<br>
+    - Le support de cours<br>
+    - Tous les éléments administratifs nécessaires<br>
+    - Un tutoriel pour vous guider dans l’utilisation de la plateforme<br>
+    - Vous trouverez ci-dessous le lien vers le drive, qui vous donnera un accès direct à ces ressources.<br><br>
+    <a href="${conversation.link}">Lien drive ici</a><br><br>
+    Pour toute assistance pédagogique ou technique, n’hésitez pas à nous contacter<br> Nous sommes là pour vous aider et assurer une formation réussie et enrichissante.<br>
+    <span style="font-weight : bold">Adresse e-mail : lapetiteecole.contacts@gmail.com</span><br>
+    <span style="font-weight : bold">Téléphone : 07 60 93 29 34</span><br>
+    Bonne formation !`, type: 'vous' },
+                        { sender: `${conversation.PRENOM}`, message: randomThankYou, type: 'participant' },
+                        { sender: 'Valerus', message: 'Vous avez des questions ?', type: 'vous' },
+                        { sender: `${conversation.PRENOM}`, message: randomFollowUp, type: 'participant' }
                     ];
-
+    
                     const messagesContainer = document.getElementById('conversation-messages');
-                    messages.forEach(msg => {
-                        const messageEl = document.createElement('div');
-                        messageEl.className = `message ${msg.type}`;
-                        messageEl.innerHTML = `<strong>${msg.sender}:</strong> ${msg.message}`;
-                        messagesContainer.appendChild(messageEl);
-                    });
-                } else {
-                    document.getElementById('conversation-title').textContent = 'Conversation Not Found';
-                }
-            })
-            .catch(error => console.error('Error fetching conversation:', error));
+                messages.forEach(msg => {
+                    const messageEl = document.createElement('div');
+                    messageEl.className = `message ${msg.type}`;
+                    messageEl.innerHTML = `<strong>${msg.sender}:</strong> ${msg.message}`;
+                    messagesContainer.appendChild(messageEl);
+                });
+            } else {
+                document.getElementById('conversation-title').textContent = 'Conversation Not Found';
+            }
+        })
+        .catch(error => console.error('Error fetching conversation:', error));
     </script>
 </body>
 
