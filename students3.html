@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Title -->
-    <title> Fun </title>
+    <title> Petite ecole</title>
     <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/images/logo/fun_logo.png">
+    <link rel="shortcut icon" href="assets/images/logo/la-petite-ecole-logo-edit.png">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- file upload -->
@@ -668,6 +668,11 @@
                             <td>${item.Telephone}</td>
                             <td>${item.DateDebut }</td>
                             <td>${item.DateFin}</td>
+                             <td>
+                               <a href="${item.temps || '#'}" target="_blank">
+                                 <button class="btn btn-primary">${item.temps ? 'Consulter' : 'No Link'}</button>
+                               </a>
+                            </td>
                             <td>
                                <a href="${item.Drive || '#'}" target="_blank">
                                  <button class="btn btn-primary">${item.Drive ? 'Télécharger' : 'No Link'}</button>
