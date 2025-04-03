@@ -1,33 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Connexion</title>
   <link rel="stylesheet" href="./assets/css/login.css" />
 </head>
 <body>
-    <div class="background">
-        <div class="login-container">
-          <div class="header">
-            <h2>Bienvenue</h2>
-            <p>Veuillez vous identifiez svp  !</p>
-          </div>
-          <form id="login-form">
-            <label for="username">Utilisateur</label>
-            <input type="text" id="username" required placeholder="Saisissez votre identifiant">
-            
-            <label for="password">Mot de passe</label>
-            <input type="password" id="password" required placeholder="Saisissez votre mot de passe">
-            
-            <button type="button" onclick="login()">Connexion</button>
-            <div id="message"></div> <!-- Message element for feedback -->
-          </form>
-        </div>
+  <div class="background">
+    <div class="login-container">
+      <div class="header">
+        <h2>Bienvenue</h2>
+        <p>Veuillez vous identifier svp !</p>
       </div>
-      <script src="./assets/js/login.js"></script>
 
+      <form id="login-form">
+        <label for="username">Utilisateur</label>
+        <input type="text" id="username" required placeholder="Saisissez votre identifiant">
+
+        <label for="password">Mot de passe</label>
+        <input type="password" id="password" required placeholder="Saisissez votre mot de passe">
+
+        <button type="button" onclick="login()">Connexion</button>
+
+        <div id="message"></div>
+      </form>
+    </div>
+  </div>
+
+  <script src="./assets/js/login.js"></script>
 </body>
-
 </html>
-

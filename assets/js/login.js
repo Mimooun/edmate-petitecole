@@ -1,25 +1,34 @@
 function login() {
-    const username = document.getElementById("username").value;
-    const password = document.getElementById("password").value;
-    const message = document.getElementById("message");
-  
-    // Hardcoded credentials for example purposes
-    const correctUsername = "lapetiteecole.contacts@gmail.com";
-    const correctPassword = "lapetiteecole2024";
-  
-    if (username === correctUsername && password === correctPassword) {
-      message.textContent = "Connexion réussie!";
-      message.style.color = "green";
+  const username = document.getElementById("username").value.trim();
+  const password = document.getElementById("password").value.trim();
+  const message = document.getElementById("message");
 
-      // Set a login flag in localStorage
-      localStorage.setItem("isLoggedIn", "true");
+  fetch("./assets/data/users.json")
+    .then(response => {
+      if (!response.ok) {
+        throw new Error("Erreur lors du chargement du fichier JSON");
+      }
+      return response.json();
+    })
+    .then(users => {
+      const user = users.find(u => u.username === username && u.password === password);
+      if (user) {
+        message.textContent = "Connexion réussie ✅";
+        message.style.color = "green";
 
-      // Redirect to index.html after successful login
-      setTimeout(() => {
-        window.location.href = "index.html";
-      }, 1000);
-    } else {
-      message.textContent = "Invalid username or password";
+        // ⏳ Redirection après 1 seconde
+        setTimeout(() => {
+          window.location.href = "index.html"; // Chemin vers la page d’accueil
+        }, 1000);
+
+      } else {
+        message.textContent = "Identifiant ou mot de passe incorrect ❌";
+        message.style.color = "red";
+      }
+    })
+    .catch(error => {
+      console.error(error);
+      message.textContent = "Erreur serveur ou fichier introuvable.";
       message.style.color = "red";
-    }
+    });
 }
