@@ -3,7 +3,7 @@ function login() {
   const password = document.getElementById("password").value.trim();
   const message = document.getElementById("message");
 
-  fetch("./assets/data/users.json")
+  fetch("/users.json")
     .then(response => {
       if (!response.ok) {
         throw new Error("Erreur lors du chargement du fichier JSON");
