@@ -33,12 +33,7 @@
     <!-- Main css -->
     <link rel="stylesheet" href="assets/css/main.css">
 
-     <!-- <script>
-        // Redirect to login.html only if not logged in
-        if (!localStorage.getItem("isLoggedIn")) {
-            window.location.href = "login.html";
-        }
-    </script>  -->
+
 </head>
 
 <body>
@@ -255,7 +250,7 @@
                 <a href="RDV.html">
                     <div type="button"
                         style="text-align:center;background : #8b2fc9  ;border-radius:15px;padding: 10px;color: white; letter-spacing : 1px"
-                         class="rdv">
+                        class="rdv">
                         Les rendez-vous pris
                     </div>
                 </a>
@@ -489,7 +484,11 @@
                                             class="py-12 text-15 px-20 hover-bg-danger-50 text-gray-300 hover-text-danger-600 rounded-8 flex-align gap-8 fw-medium text-15">
                                             <span class="text-2xl text-danger-600 d-flex"><i
                                                     class="ph ph-sign-out"></i></span>
-                                            <span class="text">Se déconnecter</span>
+                                            <span class="text" style="cursor:pointer;"
+                                                onclick="localStorage.removeItem('isLoggedIn'); window.location.href='login.html';">Se
+                                                déconnecter</span>
+
+
                                         </a>
                                     </li>
                                 </ul>
@@ -1440,3 +1439,11 @@
 </body>
 
 </html>
+<script>
+    if (!localStorage.getItem("isLoggedIn")) {
+        console.log("Utilisateur non connecté. Redirection...");
+        window.location.href = "login.html";
+    } else {
+        console.log("Utilisateur connecté.");
+    }
+</script>
