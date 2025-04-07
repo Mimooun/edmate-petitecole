@@ -533,8 +533,8 @@
                                         <th class="h6 text-gray-300">Téléphone</th>
                                         <th class="h6 text-gray-300">Date de debut <br>de formation</th>
                                         <th class="h6 text-gray-300">Date de fin <br> de formation</th>
-                                        <th class="h6 text-gray-300">Temps de connexion</th>
-                                        <th class="h6 text-gray-300">Documents</th>
+                                        <!-- <th class="h6 text-gray-300">Temps de connexion</th>
+                                        <th class="h6 text-gray-300">Documents</th> -->
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -692,16 +692,7 @@
                             <td>${item.Telephone}</td>
                             <td>${item.DateDebut}</td>
                             <td>${item.DateFin}</td>
-                             <td>
-                               <a href="${item.temps || '#'}" target="_blank">
-                                 <button class="btn btn-primary">${item.temps ? 'Consulter' : 'No Link'}</button>
-                               </a>
-                            </td>
-                            <td>
-                               <a href="${item.Drive || '#'}" target="_blank">
-                                 <button class="btn btn-primary">${item.Drive ? 'Consulter' : 'No Link'}</button>
-                               </a>
-                            </td>
+                             
 
                         `;
 

@@ -479,16 +479,25 @@
                                     <span class="text">Email</span>
                                 </a>
                             </li> -->
+
+
+                                    <li class="pt-8 border-top border-gray-100">
+                                        <div class="py-12 text-15 px-20 hover-bg-danger-50 text-gray-300 hover-text-danger-600 rounded-8 flex-align gap-8 fw-medium text-15"
+                                            style="cursor: pointer;" onclick="exportToCSV()">
+                                            <span class="text-2xl text-danger-600 d-flex"><i
+                                                    class="ph ph-download-simple"></i></span>
+                                            <span class="text">📥 Exporter historique</span>
+                                        </div>
+                                    </li>
+
+                                    <!-- DÉCONNEXION (redirige vers login.html) -->
                                     <li class="pt-8 border-top border-gray-100">
                                         <a href="login.html"
-                                            class="py-12 text-15 px-20 hover-bg-danger-50 text-gray-300 hover-text-danger-600 rounded-8 flex-align gap-8 fw-medium text-15">
+                                            class="py-12 text-15 px-20 hover-bg-danger-50 text-gray-300 hover-text-danger-600 rounded-8 flex-align gap-8 fw-medium text-15"
+                                            onclick="logout()">
                                             <span class="text-2xl text-danger-600 d-flex"><i
                                                     class="ph ph-sign-out"></i></span>
-                                            <span class="text" style="cursor:pointer;"
-                                                onclick="localStorage.removeItem('isLoggedIn'); window.location.href='login.html';">Se
-                                                déconnecter</span>
-
-
+                                            <span class="text">Se déconnecter</span>
                                         </a>
                                     </li>
                                 </ul>
@@ -870,7 +879,7 @@
                     <div class="col-xxl-3 col-sm-6">
                         <div class="card">
                             <div class="card-body">
-                                <a href="https://drive.google.com/drive/u/1/folders/1wLxWbtr4HDVF-iOZkvW5fdMki9dco4aW"
+                                <a href="https://drive.google.com/drive/folders/1cQZcsO3RIzL84SOduAEgTG4yqo0wgkDe"
                                     target="_blank">
                                     <h4 class="mb-2">Bilan à froid</h4>
                                 </a><br>
@@ -887,7 +896,7 @@
                     <div class="col-xxl-3 col-sm-6">
                         <div class="card">
                             <div class="card-body">
-                                <a href="https://drive.google.com/drive/u/1/folders/1HZCYfRpnt2O3gEsVBN5sAbvrW0_plWtm"
+                                <a href="https://drive.google.com/drive/folders/1SAFeXPe4EIBN5s1bSiCX9qi1EfpyvA5c"
                                     target="_blank">
                                     <h4 class="mb-2">Bilan à chaud</h4>
                                 </a><br>
@@ -1445,5 +1454,55 @@
         window.location.href = "login.html";
     } else {
         console.log("Utilisateur connecté.");
+    }
+</script>
+<script>
+    function exportToCSV() {
+        const history = JSON.parse(localStorage.getItem("loginHistory")) || [];
+
+        if (history.length === 0) {
+            alert("Aucune connexion enregistrée.");
+            return;
+        }
+
+        let csv = "Email,Date de connexion,Date de déconnexion\n";
+        history.forEach(item => {
+            const logout = item.logout ? item.logout : "";
+            csv += `${item.username},${item.login},${logout}\n`;
+        });
+
+        const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+        const url = URL.createObjectURL(blob);
+
+        // ✅ Nom du fichier basé sur l'email
+        const email = localStorage.getItem("username") || "utilisateur";
+        const filename = `${email}_connexions.csv`;
+
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = filename;
+        link.click();
+    }
+
+</script>
+
+<script>
+    function logout() {
+        const logoutTime = new Date().toLocaleString();
+        let history = JSON.parse(localStorage.getItem("loginHistory")) || [];
+
+        for (let i = history.length - 1; i >= 0; i--) {
+            if (history[i].username === localStorage.getItem("username") && history[i].logout === null) {
+                history[i].logout = logoutTime;
+                break;
+            }
+        }
+
+        localStorage.setItem("loginHistory", JSON.stringify(history));
+        localStorage.removeItem("isLoggedIn");
+        localStorage.removeItem("username");
+        localStorage.removeItem("loginTime");
+
+        window.location.href = "login.html";
     }
 </script>
