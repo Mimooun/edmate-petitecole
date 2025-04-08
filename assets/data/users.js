@@ -7,6 +7,7 @@ const users = [
     { username: "valves@orsys.fr", password: "Valves1274&or" },
     { username: "salyeres@gmail.com", password: "Salyresma@!" },
     { username: "fanny.desfougeres15@gmail.com", password: "Fany15geres3654:" },
-    { username: "morais.nicolas.dylan@gmail.com", password: "Marais77dy:" }
+    { username: "morais.nicolas.dylan@gmail.com", password: "Moraisdy77:" },
+    { username: "alex.chaban@outlook.fr", password: "Alex@ch!" }
   ];
   
