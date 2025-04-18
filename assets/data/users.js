@@ -8,6 +8,9 @@ const users = [
     { username: "salyeres@gmail.com", password: "Salyresma@!" },
     { username: "fanny.desfougeres15@gmail.com", password: "Fany15geres3654:" },
     { username: "morais.nicolas.dylan@gmail.com", password: "Moraisdy77:" },
-    { username: "alex.chaban@outlook.fr", password: "Alex@ch!" }
+    { username: "alex.chaban@outlook.fr", password: "Alex@ch!" },
+    { username: "zuccon.aurelia@bbox.fr", password: "Zuccon275@:" },
+    { username: "Fereira.margot@gmail.com", password: "Fereira745@" },
+    { username: "jefft509@gmail.com", password: "Jefft509@:" }
   ];
   
