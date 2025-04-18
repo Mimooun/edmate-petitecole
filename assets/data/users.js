@@ -11,6 +11,6 @@ const users = [
     { username: "alex.chaban@outlook.fr", password: "Alex@ch!" },
     { username: "zuccon.aurelia@bbox.fr", password: "Zuccon275@:" },
     { username: "Fereira.margot@gmail.com", password: "Fereira745@" },
-    { username: "jefft509@gmail.com", password: "Jefft509@:" }
+    { username: "jefft509@gmail.com", password: "Jefft509@!" }
   ];
   
