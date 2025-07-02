@@ -23,5 +23,6 @@ const users = [
     { username: "charly.loupia@gmail.com", password: "loupiach.." },
     { username: "mousk_3@hotmail.com", password: "Mousk1010!" },
     { username: "loubnakarimi1982@icloud.com", password: "Loubna1982i:" },
+    { username: "eline.77@hotmail.fr", password: "Eline@@." },
   ];
   
