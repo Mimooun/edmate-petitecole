@@ -24,5 +24,11 @@ const users = [
     { username: "mousk_3@hotmail.com", password: "Mousk1010!" },
     { username: "loubnakarimi1982@icloud.com", password: "Loubna1982i:" },
     { username: "eline.77@hotmail.fr", password: "Eline@@." },
+
+    { username: "clairebagieu@yahoo.fr", password: "Clairebagieu1155!" },
+    { username: "georgiana1g@icloud.com", password: "Georgina1@." },
+    { username: "zakia.mahi1961@gmail.com", password: "Zakia1996@" },
+    { username: "siledobie@yahoo.fr", password: "Siledobie359." },
+    { username: "nedjarmali@gmail.com", password: "Jarmali!." },
   ];
-  
+ 
